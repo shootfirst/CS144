@@ -58,9 +58,9 @@ Connection: close
       
     + 进行判断是否能写入_output，能则写入，判断是否全部写入，没有则将剩余插入map
     
-    +若成功写入且缓冲区未溢出，则在map中拿出第一个尝试写入，能则重复
+    + 若成功写入且缓冲区未溢出，则在map中拿出第一个尝试写入，能则重复
   
-    +求eof_idx，若满足eof_idx<=hope_to_rec则结束写入
+    + 求eof_idx，若满足eof_idx<=hope_to_rec则结束写入
 
 
 
