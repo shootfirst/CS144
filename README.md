@@ -1,9 +1,34 @@
 # CS144 斯坦福2021秋季计算机网络实验
 
+## lab0
+
+实验零有两小部分。分别是实现和手动获取网页相同功能的函数和实现内存字节流读取可靠服务
+
++ 手动获取网页
+
+补充get_URL函数，代码量10几行
+
+此部分关键点一我觉得是通过套接字和采用http协议的服务器沟通时，每行命令结束应该以\r\n结束，最后键入所有命令后同样要写入\r\n，如
+
+GET /hello HTTP/1.1
+Host: http://cs144.Keithw.org
+Connection: close
+你在写程序时应该这样"GET " + path + " " + "HTTP/1.1\r\nHost: " + host + "\r\nConnection: close\r\n\r\n"。
+
+其次是调用shutdown函数时注意传入的参数，第一次我传入SHUT_RDWT,导致报错：read: Connection reset by peer
+
++ 内存可靠字节流
+
+实现byte_stream.hh里面的ByteStream类相关函数，为方便代码编写可加入相关字段。关键在于缓冲区数据结构选取，我选的是list。
+
+坑点：我开始实现时是read完结束时，给have_read变量一次性加上读取长度，可是测试不给我通过，我后来改成每pop一个have_read加1，给通过了。奇怪。
+
+
+
 ## lab1
 
 实验一是实现一字节流重组器，将失序的字节流小块按顺序组装。
-### g关键点
+### 关键点
 
 + 重叠
 
