@@ -44,9 +44,6 @@ Connection: close
 + start：data子串的开始index
 + len：子串长度
 
-
-
-
 + 流程：
     + 对传入的data，在map中找上界up
       + 找到，判断是否交叉，交叉则判断是否被包围，包围则结束，否则修改start为up->first+up->second.size()-index;
@@ -61,6 +58,60 @@ Connection: close
     + 若成功写入且缓冲区未溢出，则在map中拿出第一个尝试写入，能则重复
   
     + 求eof_idx，若满足eof_idx<=hope_to_rec则结束写入
+
+
+
+## lab2
+
+实验二实现一个 TCPReceiver，用以接收传入的 TCP segment 并将其转换成用户可读的数据流。分为两个部分，索引转换和TCPReceiver 实现。
+
++ 索引转换
+
+在TCP中，每个字节在数据流中的索引用一个32位的“序列号”（seqno）表示，这就增加了一些复杂性：
+
+    + 开始和结束都算作序列中的一个位置：除了确保收到所有字节的数据外，TCP必须确保也能收到流的开始和结束。因此，在TCP中，SYN（数据流的开始）和FIN（数据流的结束）标志都被分配了序列号
+    
+    + 32位封装的序列号：在我们的StreamReassembler中，索引总是从0开始，并且有64位，在TCP中，传输的序列号是32位，如果数据流足够长的话，序列号就会循环
+    
+    + TCP序列号不从零开始：为了提高安全性和避免不同连接之间的混淆，TCP试图确保序列号不能被猜到，而且不太可能重复。因此，一个流的序列号不从零开始。流中的第一个序列号通常是一个随机的32位数字，称为初始序列号（ISN）
+    
+实现两个函数，wrap（绝对序列号转序列号）和unwrap（序列号转绝对序列号），unwrap注意余数相关性质，写得好45行代码解决。
+
++ TCPReceiver
+
+实现三个方法：
+
+    + segment received
+        
+        主要方法：对于 TCPReceiver 来说，除了错误状态以外，它一共有3种状态，分别是：
+
+            + LISTEN：等待 SYN 包的到来。若在 SYN 包到来前就有其他数据到来，则必须丢弃
+            + SYN_RECV：获取到了 SYN 包，此时可以正常的接收数据包
+            + FIN_RECV：input_end，此时务必终止 ByteStream 数据流的输入
+            
+        状态设置：
+            
+            + 当 isn 还没设置时，肯定是 LISTEN 状态
+            + 当 ByteStream.input_ended()，则肯定是 FIN_RECV 状态
+            + 其他情况下，是 SYN_RECV 状态
+        
+        ackno 的计算必须考虑到 SYN 和 FIN 标志，因为这两个标志各占一个 seqno。故在返回 ackno 时，务必判断当前 接收者处于什么状态，然后依据当前状态来判断是否需要对当前的计算结果加1或加2。而这条准则对 push_substring 时同样适用。
+        
+        
+
+    + ackno
+    
+        返回一个可选的<WrappingInt32>，包含接收方尚未知道的第一个字节的序列号。这就是窗口的左边缘：接收方感兴趣的第一个字节。如果ISN还没有被设置，返回一个空的可选值
+        
+    + window size
+        
+        求窗口大小
+  
+    
+
+
+
+
 
 
 
