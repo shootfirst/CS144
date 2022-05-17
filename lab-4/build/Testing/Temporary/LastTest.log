@@ -1,0 +1,4083 @@
+Start testing: May 17 10:27 CST
+----------------------------------------------------------
+1/169 Testing: t_wrapping_ints_cmp
+1/169 Test: t_wrapping_ints_cmp
+Command: "/home/shootzecond/sponge/build/tests/wrapping_integers_cmp"
+Directory: /home/shootzecond/sponge/build
+"t_wrapping_ints_cmp" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_wrapping_ints_cmp" end time: May 17 10:27 CST
+"t_wrapping_ints_cmp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/169 Testing: t_wrapping_ints_unwrap
+2/169 Test: t_wrapping_ints_unwrap
+Command: "/home/shootzecond/sponge/build/tests/wrapping_integers_unwrap"
+Directory: /home/shootzecond/sponge/build
+"t_wrapping_ints_unwrap" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_wrapping_ints_unwrap" end time: May 17 10:27 CST
+"t_wrapping_ints_unwrap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/169 Testing: t_wrapping_ints_wrap
+3/169 Test: t_wrapping_ints_wrap
+Command: "/home/shootzecond/sponge/build/tests/wrapping_integers_wrap"
+Directory: /home/shootzecond/sponge/build
+"t_wrapping_ints_wrap" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_wrapping_ints_wrap" end time: May 17 10:27 CST
+"t_wrapping_ints_wrap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/169 Testing: t_wrapping_ints_roundtrip
+4/169 Test: t_wrapping_ints_roundtrip
+Command: "/home/shootzecond/sponge/build/tests/wrapping_integers_roundtrip"
+Directory: /home/shootzecond/sponge/build
+"t_wrapping_ints_roundtrip" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"t_wrapping_ints_roundtrip" end time: May 17 10:27 CST
+"t_wrapping_ints_roundtrip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/169 Testing: t_recv_connect
+5/169 Test: t_recv_connect
+Command: "/home/shootzecond/sponge/build/tests/recv_connect"
+Directory: /home/shootzecond/sponge/build
+"t_recv_connect" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_recv_connect" end time: May 17 10:27 CST
+"t_recv_connect" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/169 Testing: t_recv_transmit
+6/169 Test: t_recv_transmit
+Command: "/home/shootzecond/sponge/build/tests/recv_transmit"
+Directory: /home/shootzecond/sponge/build
+"t_recv_transmit" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"t_recv_transmit" end time: May 17 10:27 CST
+"t_recv_transmit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/169 Testing: t_recv_window
+7/169 Test: t_recv_window
+Command: "/home/shootzecond/sponge/build/tests/recv_window"
+Directory: /home/shootzecond/sponge/build
+"t_recv_window" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_recv_window" end time: May 17 10:27 CST
+"t_recv_window" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/169 Testing: t_recv_reorder
+8/169 Test: t_recv_reorder
+Command: "/home/shootzecond/sponge/build/tests/recv_reorder"
+Directory: /home/shootzecond/sponge/build
+"t_recv_reorder" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_recv_reorder" end time: May 17 10:27 CST
+"t_recv_reorder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/169 Testing: t_recv_close
+9/169 Test: t_recv_close
+Command: "/home/shootzecond/sponge/build/tests/recv_close"
+Directory: /home/shootzecond/sponge/build
+"t_recv_close" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_recv_close" end time: May 17 10:27 CST
+"t_recv_close" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/169 Testing: t_recv_special
+10/169 Test: t_recv_special
+Command: "/home/shootzecond/sponge/build/tests/recv_special"
+Directory: /home/shootzecond/sponge/build
+"t_recv_special" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_recv_special" end time: May 17 10:27 CST
+"t_recv_special" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/169 Testing: t_send_connect
+11/169 Test: t_send_connect
+Command: "/home/shootzecond/sponge/build/tests/send_connect"
+Directory: /home/shootzecond/sponge/build
+"t_send_connect" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_send_connect" end time: May 17 10:27 CST
+"t_send_connect" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/169 Testing: t_send_transmit
+12/169 Test: t_send_transmit
+Command: "/home/shootzecond/sponge/build/tests/send_transmit"
+Directory: /home/shootzecond/sponge/build
+"t_send_transmit" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"t_send_transmit" end time: May 17 10:27 CST
+"t_send_transmit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/169 Testing: t_send_retx
+13/169 Test: t_send_retx
+Command: "/home/shootzecond/sponge/build/tests/send_retx"
+Directory: /home/shootzecond/sponge/build
+"t_send_retx" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_send_retx" end time: May 17 10:27 CST
+"t_send_retx" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/169 Testing: t_send_window
+14/169 Test: t_send_window
+Command: "/home/shootzecond/sponge/build/tests/send_window"
+Directory: /home/shootzecond/sponge/build
+"t_send_window" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"t_send_window" end time: May 17 10:27 CST
+"t_send_window" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/169 Testing: t_send_ack
+15/169 Test: t_send_ack
+Command: "/home/shootzecond/sponge/build/tests/send_ack"
+Directory: /home/shootzecond/sponge/build
+"t_send_ack" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_send_ack" end time: May 17 10:27 CST
+"t_send_ack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/169 Testing: t_send_close
+16/169 Test: t_send_close
+Command: "/home/shootzecond/sponge/build/tests/send_close"
+Directory: /home/shootzecond/sponge/build
+"t_send_close" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_send_close" end time: May 17 10:27 CST
+"t_send_close" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/169 Testing: t_send_extra
+17/169 Test: t_send_extra
+Command: "/home/shootzecond/sponge/build/tests/send_extra"
+Directory: /home/shootzecond/sponge/build
+"t_send_extra" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"t_send_extra" end time: May 17 10:27 CST
+"t_send_extra" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/169 Testing: t_strm_reassem_single
+18/169 Test: t_strm_reassem_single
+Command: "/home/shootzecond/sponge/build/tests/fsm_stream_reassembler_single"
+Directory: /home/shootzecond/sponge/build
+"t_strm_reassem_single" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_strm_reassem_single" end time: May 17 10:27 CST
+"t_strm_reassem_single" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/169 Testing: t_strm_reassem_seq
+19/169 Test: t_strm_reassem_seq
+Command: "/home/shootzecond/sponge/build/tests/fsm_stream_reassembler_seq"
+Directory: /home/shootzecond/sponge/build
+"t_strm_reassem_seq" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_strm_reassem_seq" end time: May 17 10:27 CST
+"t_strm_reassem_seq" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/169 Testing: t_strm_reassem_dup
+20/169 Test: t_strm_reassem_dup
+Command: "/home/shootzecond/sponge/build/tests/fsm_stream_reassembler_dup"
+Directory: /home/shootzecond/sponge/build
+"t_strm_reassem_dup" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"t_strm_reassem_dup" end time: May 17 10:27 CST
+"t_strm_reassem_dup" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/169 Testing: t_strm_reassem_holes
+21/169 Test: t_strm_reassem_holes
+Command: "/home/shootzecond/sponge/build/tests/fsm_stream_reassembler_holes"
+Directory: /home/shootzecond/sponge/build
+"t_strm_reassem_holes" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_strm_reassem_holes" end time: May 17 10:27 CST
+"t_strm_reassem_holes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/169 Testing: t_strm_reassem_many
+22/169 Test: t_strm_reassem_many
+Command: "/home/shootzecond/sponge/build/tests/fsm_stream_reassembler_many"
+Directory: /home/shootzecond/sponge/build
+"t_strm_reassem_many" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"t_strm_reassem_many" end time: May 17 10:27 CST
+"t_strm_reassem_many" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/169 Testing: t_strm_reassem_overlapping
+23/169 Test: t_strm_reassem_overlapping
+Command: "/home/shootzecond/sponge/build/tests/fsm_stream_reassembler_overlapping"
+Directory: /home/shootzecond/sponge/build
+"t_strm_reassem_overlapping" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_strm_reassem_overlapping" end time: May 17 10:27 CST
+"t_strm_reassem_overlapping" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/169 Testing: t_strm_reassem_win
+24/169 Test: t_strm_reassem_win
+Command: "/home/shootzecond/sponge/build/tests/fsm_stream_reassembler_win"
+Directory: /home/shootzecond/sponge/build
+"t_strm_reassem_win" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.23 sec
+----------------------------------------------------------
+Test Passed.
+"t_strm_reassem_win" end time: May 17 10:27 CST
+"t_strm_reassem_win" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/169 Testing: t_strm_reassem_cap
+25/169 Test: t_strm_reassem_cap
+Command: "/home/shootzecond/sponge/build/tests/fsm_stream_reassembler_cap"
+Directory: /home/shootzecond/sponge/build
+"t_strm_reassem_cap" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"t_strm_reassem_cap" end time: May 17 10:27 CST
+"t_strm_reassem_cap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/169 Testing: t_byte_stream_construction
+26/169 Test: t_byte_stream_construction
+Command: "/home/shootzecond/sponge/build/tests/byte_stream_construction"
+Directory: /home/shootzecond/sponge/build
+"t_byte_stream_construction" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_byte_stream_construction" end time: May 17 10:27 CST
+"t_byte_stream_construction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/169 Testing: t_byte_stream_one_write
+27/169 Test: t_byte_stream_one_write
+Command: "/home/shootzecond/sponge/build/tests/byte_stream_one_write"
+Directory: /home/shootzecond/sponge/build
+"t_byte_stream_one_write" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_byte_stream_one_write" end time: May 17 10:27 CST
+"t_byte_stream_one_write" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/169 Testing: t_byte_stream_two_writes
+28/169 Test: t_byte_stream_two_writes
+Command: "/home/shootzecond/sponge/build/tests/byte_stream_two_writes"
+Directory: /home/shootzecond/sponge/build
+"t_byte_stream_two_writes" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_byte_stream_two_writes" end time: May 17 10:27 CST
+"t_byte_stream_two_writes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/169 Testing: t_byte_stream_capacity
+29/169 Test: t_byte_stream_capacity
+Command: "/home/shootzecond/sponge/build/tests/byte_stream_capacity"
+Directory: /home/shootzecond/sponge/build
+"t_byte_stream_capacity" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.40 sec
+----------------------------------------------------------
+Test Passed.
+"t_byte_stream_capacity" end time: May 17 10:27 CST
+"t_byte_stream_capacity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/169 Testing: t_byte_stream_many_writes
+30/169 Test: t_byte_stream_many_writes
+Command: "/home/shootzecond/sponge/build/tests/byte_stream_many_writes"
+Directory: /home/shootzecond/sponge/build
+"t_byte_stream_many_writes" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"t_byte_stream_many_writes" end time: May 17 10:27 CST
+"t_byte_stream_many_writes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/169 Testing: t_webget
+31/169 Test: t_webget
+Command: "/home/shootzecond/sponge/tests/webget_t.sh"
+Directory: /home/shootzecond/sponge/build
+"t_webget" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+HTTP/1.1 200 OK
+Content-type: text/plain
+
+7SmXqWkrLKzVBCEalbSPqBcvs11Pw263K7x4Wv3JckI
+<end of output>
+Test time =   0.99 sec
+----------------------------------------------------------
+Test Passed.
+"t_webget" end time: May 17 10:27 CST
+"t_webget" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/169 Testing: t_tcp_parser
+34/169 Test: t_tcp_parser
+Command: "/home/shootzecond/sponge/build/tests/tcp_parser" "/home/shootzecond/sponge/tests/ipv4_parser.data"
+Directory: /home/shootzecond/sponge/build
+"t_tcp_parser" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_tcp_parser" end time: May 17 10:27 CST
+"t_tcp_parser" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/169 Testing: t_ipv4_parser
+35/169 Test: t_ipv4_parser
+Command: "/home/shootzecond/sponge/build/tests/ipv4_parser" "/home/shootzecond/sponge/tests/ipv4_parser.data"
+Directory: /home/shootzecond/sponge/build
+"t_ipv4_parser" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"t_ipv4_parser" end time: May 17 10:27 CST
+"t_ipv4_parser" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/169 Testing: t_active_close
+36/169 Test: t_active_close
+Command: "/home/shootzecond/sponge/build/tests/fsm_active_close"
+Directory: /home/shootzecond/sponge/build
+"t_active_close" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_active_close" end time: May 17 10:27 CST
+"t_active_close" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/169 Testing: t_passive_close
+37/169 Test: t_passive_close
+Command: "/home/shootzecond/sponge/build/tests/fsm_passive_close"
+Directory: /home/shootzecond/sponge/build
+"t_passive_close" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_passive_close" end time: May 17 10:27 CST
+"t_passive_close" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/169 Testing: t_ack_rst
+39/169 Test: t_ack_rst
+Command: "/home/shootzecond/sponge/build/tests/fsm_ack_rst_relaxed"
+Directory: /home/shootzecond/sponge/build
+"t_ack_rst" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+Test 1
+Test 2
+Test 3
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Test 4
+Test 5
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_ack_rst" end time: May 17 10:27 CST
+"t_ack_rst" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/169 Testing: t_ack_rst_win
+41/169 Test: t_ack_rst_win
+Command: "/home/shootzecond/sponge/build/tests/fsm_ack_rst_win_relaxed"
+Directory: /home/shootzecond/sponge/build
+"t_ack_rst_win" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_ack_rst_win" end time: May 17 10:27 CST
+"t_ack_rst_win" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/169 Testing: t_connect
+43/169 Test: t_connect
+Command: "/home/shootzecond/sponge/build/tests/fsm_connect_relaxed"
+Directory: /home/shootzecond/sponge/build
+"t_connect" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_connect" end time: May 17 10:27 CST
+"t_connect" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/169 Testing: t_listen
+45/169 Test: t_listen
+Command: "/home/shootzecond/sponge/build/tests/fsm_listen_relaxed"
+Directory: /home/shootzecond/sponge/build
+"t_listen" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+Warning: Unclean shutdown of TCPConnection
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_listen" end time: May 17 10:27 CST
+"t_listen" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/169 Testing: t_winsize
+46/169 Test: t_winsize
+Command: "/home/shootzecond/sponge/build/tests/fsm_winsize"
+Directory: /home/shootzecond/sponge/build
+"t_winsize" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"t_winsize" end time: May 17 10:27 CST
+"t_winsize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/169 Testing: t_retx
+48/169 Test: t_retx
+Command: "/home/shootzecond/sponge/build/tests/fsm_retx_relaxed"
+Directory: /home/shootzecond/sponge/build
+"t_retx" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_retx" end time: May 17 10:27 CST
+"t_retx" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/169 Testing: t_retx_win
+49/169 Test: t_retx_win
+Command: "/home/shootzecond/sponge/build/tests/fsm_retx_win"
+Directory: /home/shootzecond/sponge/build
+"t_retx_win" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+Warning: Unclean shutdown of TCPConnection
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+Warning: Unclean shutdown of TCPConnection
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+Warning: Unclean shutdown of TCPConnection
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+Warning: Unclean shutdown of TCPConnection
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+Warning: Unclean shutdown of TCPConnection
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+Warning: Unclean shutdown of TCPConnection
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+Warning: Unclean shutdown of TCPConnection
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+Warning: Unclean shutdown of TCPConnection
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+Warning: Unclean shutdown of TCPConnection
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+  check_segment
+Warning: Unclean shutdown of TCPConnection
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"t_retx_win" end time: May 17 10:27 CST
+"t_retx_win" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/169 Testing: t_loopback
+50/169 Test: t_loopback
+Command: "/home/shootzecond/sponge/build/tests/fsm_loopback"
+Directory: /home/shootzecond/sponge/build
+"t_loopback" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+<end of output>
+Test time =   0.39 sec
+----------------------------------------------------------
+Test Passed.
+"t_loopback" end time: May 17 10:27 CST
+"t_loopback" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/169 Testing: t_loopback_win
+51/169 Test: t_loopback_win
+Command: "/home/shootzecond/sponge/build/tests/fsm_loopback_win"
+Directory: /home/shootzecond/sponge/build
+"t_loopback_win" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+<end of output>
+Test time =   0.22 sec
+----------------------------------------------------------
+Test Passed.
+"t_loopback_win" end time: May 17 10:27 CST
+"t_loopback_win" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/169 Testing: t_reorder
+52/169 Test: t_reorder
+Command: "/home/shootzecond/sponge/build/tests/fsm_reorder"
+Directory: /home/shootzecond/sponge/build
+"t_reorder" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+Warning: Unclean shutdown of TCPConnection
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"t_reorder" end time: May 17 10:27 CST
+"t_reorder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/169 Testing: t_address_dt
+53/169 Test: t_address_dt
+Command: "/home/shootzecond/sponge/build/doctests/address_dt"
+Directory: /home/shootzecond/sponge/build
+"t_address_dt" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"t_address_dt" end time: May 17 10:27 CST
+"t_address_dt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/169 Testing: t_parser_dt
+54/169 Test: t_parser_dt
+Command: "/home/shootzecond/sponge/build/doctests/parser_dt"
+Directory: /home/shootzecond/sponge/build
+"t_parser_dt" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_parser_dt" end time: May 17 10:27 CST
+"t_parser_dt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/169 Testing: t_socket_dt
+55/169 Test: t_socket_dt
+Command: "/home/shootzecond/sponge/build/doctests/socket_dt"
+Directory: /home/shootzecond/sponge/build
+"t_socket_dt" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"t_socket_dt" end time: May 17 10:27 CST
+"t_socket_dt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/169 Testing: t_udp_client_send
+56/169 Test: t_udp_client_send
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucS"
+Directory: /home/shootzecond/sponge/build
+"t_udp_client_send" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:31429... done.
+DEBUG: Outbound stream to 169.254.144.1:31429 finished (33 bytes still in flight).
+new connection from 169.254.144.1:49153.
+DEBUG: Outbound stream to 169.254.144.1:49153 finished (1 byte still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:49153 finished cleanly.
+DEBUG: Inbound stream from 169.254.144.1:31429 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:49153 has been fully acknowledged.
+DEBUG: Outbound stream to 169.254.144.1:31429 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"t_udp_client_send" end time: May 17 10:27 CST
+"t_udp_client_send" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/169 Testing: t_udp_server_send
+57/169 Test: t_udp_server_send
+Command: "/home/shootzecond/sponge/txrx.sh" "-usS"
+Directory: /home/shootzecond/sponge/build
+"t_udp_server_send" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:10634... done.
+DEBUG: Outbound stream to 169.254.144.1:10634 finished (1 byte still in flight).
+new connection from 169.254.144.1:53494.
+DEBUG: Outbound stream to 169.254.144.1:53494 finished (33 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:53494 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:10634 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:10634 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:53494 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"t_udp_server_send" end time: May 17 10:27 CST
+"t_udp_server_send" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/169 Testing: t_udp_client_recv
+58/169 Test: t_udp_client_recv
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucR"
+Directory: /home/shootzecond/sponge/build
+"t_udp_client_recv" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:33774... done.
+DEBUG: Outbound stream to 169.254.144.1:33774 finished (1 byte still in flight).
+new connection from 169.254.144.1:39278.
+DEBUG: Outbound stream to 169.254.144.1:39278 finished (33 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:39278 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:33774 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:33774 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:39278 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"t_udp_client_recv" end time: May 17 10:27 CST
+"t_udp_client_recv" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/169 Testing: t_udp_server_recv
+59/169 Test: t_udp_server_recv
+Command: "/home/shootzecond/sponge/txrx.sh" "-usR"
+Directory: /home/shootzecond/sponge/build
+"t_udp_server_recv" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:33389... done.
+new connection from 169.254.144.1:47773.
+DEBUG: Outbound stream to 169.254.144.1:33389 finished (33 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:47773 finished (1 byte still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:47773 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:33389 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:47773 has been fully acknowledged.
+DEBUG: Outbound stream to 169.254.144.1:33389 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"t_udp_server_recv" end time: May 17 10:27 CST
+"t_udp_server_recv" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/169 Testing: t_udp_client_dupl
+60/169 Test: t_udp_client_dupl
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucD"
+Directory: /home/shootzecond/sponge/build
+"t_udp_client_dupl" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:27668... done.
+new connection from 169.254.144.1:33452.
+DEBUG: Outbound stream to 169.254.144.1:33452 finished (33 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:27668 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:27668 finished (33 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:33452 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:33452 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:27668 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"t_udp_client_dupl" end time: May 17 10:27 CST
+"t_udp_client_dupl" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/169 Testing: t_udp_server_dupl
+61/169 Test: t_udp_server_dupl
+Command: "/home/shootzecond/sponge/txrx.sh" "-usD"
+Directory: /home/shootzecond/sponge/build
+"t_udp_server_dupl" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:6789... done.
+new connection from 169.254.144.1:57578.
+DEBUG: Outbound stream to 169.254.144.1:6789DEBUG: Outbound stream to 169.254.144.1:57578 finished ( finished (33 bytes still in flight).
+33 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:57578 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:6789 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:6789 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:57578 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"t_udp_server_dupl" end time: May 17 10:27 CST
+"t_udp_server_dupl" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/169 Testing: t_ucS_1M_32k
+62/169 Test: t_ucS_1M_32k
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucSd" "1M" "-w" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_ucS_1M_32k" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:11507... done.
+new connection from 169.254.144.1:46079.
+DEBUG: Outbound stream to 169.254.144.1:46079 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:11507 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:46079 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:11507 finished (30768 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:46079 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:11507 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.45 sec
+----------------------------------------------------------
+Test Passed.
+"t_ucS_1M_32k" end time: May 17 10:27 CST
+"t_ucS_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/169 Testing: t_ucS_128K_8K
+63/169 Test: t_ucS_128K_8K
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucSd" "128K" "-w" "8K"
+Directory: /home/shootzecond/sponge/build
+"t_ucS_128K_8K" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:9858... done.
+new connection from 169.254.144.1:45591.
+DEBUG: Outbound stream to 169.254.144.1:45591 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:9858 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:45591 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:9858 finished (6192 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:45591 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:9858 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"t_ucS_128K_8K" end time: May 17 10:27 CST
+"t_ucS_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/169 Testing: t_ucS_16_1
+64/169 Test: t_ucS_16_1
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucSd" "16" "-w" "1"
+Directory: /home/shootzecond/sponge/build
+"t_ucS_16_1" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:10375... done.
+new connection from 169.254.144.1:39675.
+DEBUG: Outbound stream to 169.254.144.1:39675 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:10375 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:10375 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:39675 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:39675 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:10375 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"t_ucS_16_1" end time: May 17 10:27 CST
+"t_ucS_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/169 Testing: t_ucS_32K_d
+65/169 Test: t_ucS_32K_d
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucSd" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_ucS_32K_d" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:30411... done.
+new connection from 169.254.144.1:37582.
+DEBUG: Outbound stream to 169.254.144.1:37582 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:30411 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:37582 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:30411 finished (32769 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:37582 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:30411 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"t_ucS_32K_d" end time: May 17 10:27 CST
+"t_ucS_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/169 Testing: t_ucR_1M_32k
+66/169 Test: t_ucR_1M_32k
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucRd" "1M" "-w" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_ucR_1M_32k" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:19923... done.
+new connection from 169.254.144.1:46830.
+DEBUG: Outbound stream to 169.254.144.1:19923 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:46830 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:19923 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:46830 finished (31768 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:46830 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: Inbound stream from 169.254.144.1:19923 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Passed.
+"t_ucR_1M_32k" end time: May 17 10:27 CST
+"t_ucR_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+67/169 Testing: t_ucR_128K_8K
+67/169 Test: t_ucR_128K_8K
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucRd" "128K" "-w" "8K"
+Directory: /home/shootzecond/sponge/build
+"t_ucR_128K_8K" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:20907... done.
+new connection from 169.254.144.1:47679.
+DEBUG: Outbound stream to 169.254.144.1:20907 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:20907 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:47679 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:47679 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:20907 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:47679 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"t_ucR_128K_8K" end time: May 17 10:27 CST
+"t_ucR_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+68/169 Testing: t_ucR_16_1
+68/169 Test: t_ucR_16_1
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucRd" "16" "-w" "1"
+Directory: /home/shootzecond/sponge/build
+"t_ucR_16_1" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:32491... done.
+DEBUG: Outbound stream to 169.254.144.1:32491 finished (1 byte still in flight).
+new connection from 169.254.144.1:46158.
+DEBUG: Outbound stream to 169.254.144.1:46158 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:46158 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:32491 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:32491 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:46158 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"t_ucR_16_1" end time: May 17 10:27 CST
+"t_ucR_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+69/169 Testing: t_ucR_32K_d
+69/169 Test: t_ucR_32K_d
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucRd" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_ucR_32K_d" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:5599... done.
+new connection from 169.254.144.1:47879.
+DEBUG: Outbound stream to 169.254.144.1:5599 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:47879 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:5599 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:47879 finished (32769 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:5599 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:47879 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"t_ucR_32K_d" end time: May 17 10:27 CST
+"t_ucR_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+70/169 Testing: t_ucD_1M_32k
+70/169 Test: t_ucD_1M_32k
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucDd" "1M" "-w" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_ucD_1M_32k" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:9200... done.
+new connection from 169.254.144.1:54189.
+DEBUG: Outbound stream to 169.254.144.1:54189 finished (31768 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:9200 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:54189 has been fully acknowledged.
+DEBUG: Outbound stream to 169.254.144.1:9200 finished (31768 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:54189 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:9200 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"t_ucD_1M_32k" end time: May 17 10:27 CST
+"t_ucD_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+71/169 Testing: t_ucD_128K_8K
+71/169 Test: t_ucD_128K_8K
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucDd" "128K" "-w" "8K"
+Directory: /home/shootzecond/sponge/build
+"t_ucD_128K_8K" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:31469... done.
+new connection from 169.254.144.1:45498.
+DEBUG: Outbound stream to 169.254.144.1:45498 finished (6192 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:31469 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:45498 finished cleanly.
+169.254.144.1:31469 finished cleanly.
+DEBUG: Outbound stream to DEBUG: Outbound stream to 169.254.144.1:45498 has been fully acknowledged.
+169.254.144.1:31469 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+DEBUG: TCP connection finished cleanly.
+done.
+done.
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"t_ucD_128K_8K" end time: May 17 10:27 CST
+"t_ucD_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+72/169 Testing: t_ucD_16_1
+72/169 Test: t_ucD_16_1
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucDd" "16" "-w" "1"
+Directory: /home/shootzecond/sponge/build
+"t_ucD_16_1" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:10010... done.
+new connection from 169.254.144.1:56157.
+DEBUG: Outbound stream to 169.254.144.1:10010 finished (DEBUG: Outbound stream to 1169.254.144.1:56157 finished (1 byte still in flight).
+ byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:10010 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:56157 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:56157 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:10010 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"t_ucD_16_1" end time: May 17 10:27 CST
+"t_ucD_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+73/169 Testing: t_ucD_32K_d
+73/169 Test: t_ucD_32K_d
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucDd" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_ucD_32K_d" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:25634... done.
+new connection from 169.254.144.1:49523.
+DEBUG: Outbound stream to 169.254.144.1:49523 finished (32769 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:25634 finished (32769 bytes still in flight).
+DEBUG: Inbound stream from DEBUG: Inbound stream from 169.254.144.1:25634 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Waiting for clean shutdown... 169.254.144.1:49523 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:25634 has been fully acknowledged.
+DEBUG: Outbound stream to 169.254.144.1:49523 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"t_ucD_32K_d" end time: May 17 10:27 CST
+"t_ucD_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+74/169 Testing: t_usS_1M_32k
+74/169 Test: t_usS_1M_32k
+Command: "/home/shootzecond/sponge/txrx.sh" "-usSd" "1M" "-w" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_usS_1M_32k" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:12872... done.
+new connection from 169.254.144.1:52466.
+DEBUG: Outbound stream to 169.254.144.1:12872 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:52466 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:12872 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:52466 finished (31768 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:12872 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:52466 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.44 sec
+----------------------------------------------------------
+Test Passed.
+"t_usS_1M_32k" end time: May 17 10:27 CST
+"t_usS_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+75/169 Testing: t_usS_128K_8K
+75/169 Test: t_usS_128K_8K
+Command: "/home/shootzecond/sponge/txrx.sh" "-usSd" "128K" "-w" "8K"
+Directory: /home/shootzecond/sponge/build
+"t_usS_128K_8K" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:32021... done.
+new connection from 169.254.144.1:49152.
+DEBUG: Outbound stream to 169.254.144.1:32021 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:49152 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:32021 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:49152 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:32021 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:49152 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"t_usS_128K_8K" end time: May 17 10:27 CST
+"t_usS_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+76/169 Testing: t_usS_16_1
+76/169 Test: t_usS_16_1
+Command: "/home/shootzecond/sponge/txrx.sh" "-usSd" "16" "-w" "1"
+Directory: /home/shootzecond/sponge/build
+"t_usS_16_1" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:27705... done.
+new connection from 169.254.144.1:51004.
+DEBUG: Outbound stream to 169.254.144.1:51004 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:27705 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:27705 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:51004 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:27705 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:51004 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"t_usS_16_1" end time: May 17 10:27 CST
+"t_usS_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+77/169 Testing: t_usS_32K_d
+77/169 Test: t_usS_32K_d
+Command: "/home/shootzecond/sponge/txrx.sh" "-usSd" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_usS_32K_d" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:24811... done.
+new connection from 169.254.144.1:53253.
+DEBUG: Outbound stream to 169.254.144.1:24811 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:53253 finished (32769 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:24811 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:24811 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:53253 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:53253 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+DEBUG: Waiting for clean shutdown... done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"t_usS_32K_d" end time: May 17 10:27 CST
+"t_usS_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+78/169 Testing: t_usR_1M_32k
+78/169 Test: t_usR_1M_32k
+Command: "/home/shootzecond/sponge/txrx.sh" "-usRd" "1M" "-w" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_usR_1M_32k" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:9846... done.
+new connection from 169.254.144.1:58007.
+DEBUG: Outbound stream to 169.254.144.1:58007 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:9846 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:58007 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:9846 finished (31768 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:58007 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:9846 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.46 sec
+----------------------------------------------------------
+Test Passed.
+"t_usR_1M_32k" end time: May 17 10:27 CST
+"t_usR_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+79/169 Testing: t_usR_128K_8K
+79/169 Test: t_usR_128K_8K
+Command: "/home/shootzecond/sponge/txrx.sh" "-usRd" "128K" "-w" "8K"
+Directory: /home/shootzecond/sponge/build
+"t_usR_128K_8K" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:2414... done.
+new connection from 169.254.144.1:35965.
+DEBUG: Outbound stream to 169.254.144.1:35965 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:2414 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:35965 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:2414 finished (6192 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:35965 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:2414 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"t_usR_128K_8K" end time: May 17 10:27 CST
+"t_usR_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+80/169 Testing: t_usR_16_1
+80/169 Test: t_usR_16_1
+Command: "/home/shootzecond/sponge/txrx.sh" "-usRd" "16" "-w" "1"
+Directory: /home/shootzecond/sponge/build
+"t_usR_16_1" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:15083... done.
+new connection from 169.254.144.1:57980.
+DEBUG: Outbound stream to 169.254.144.1:57980 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:15083 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:15083 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:57980 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:57980 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:15083 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"t_usR_16_1" end time: May 17 10:27 CST
+"t_usR_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+81/169 Testing: t_usR_32K_d
+81/169 Test: t_usR_32K_d
+Command: "/home/shootzecond/sponge/txrx.sh" "-usRd" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_usR_32K_d" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:12231... done.
+new connection from 169.254.144.1:36672.
+DEBUG: Outbound stream to 169.254.144.1:36672 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:12231 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:36672 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:12231 finished (32769 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:36672 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:12231 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"t_usR_32K_d" end time: May 17 10:27 CST
+"t_usR_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+82/169 Testing: t_usD_1M_32k
+82/169 Test: t_usD_1M_32k
+Command: "/home/shootzecond/sponge/txrx.sh" "-usDd" "1M" "-w" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_usD_1M_32k" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:15282... done.
+new connection from 169.254.144.1:60236.
+DEBUG: Outbound stream to 169.254.144.1:60236 finished (31768 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:15282 finished (31768 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:15282 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:60236 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:60236 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:15282 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"t_usD_1M_32k" end time: May 17 10:27 CST
+"t_usD_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+83/169 Testing: t_usD_128K_8K
+83/169 Test: t_usD_128K_8K
+Command: "/home/shootzecond/sponge/txrx.sh" "-usDd" "128K" "-w" "8K"
+Directory: /home/shootzecond/sponge/build
+"t_usD_128K_8K" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:14774... done.
+new connection from 169.254.144.1:41156.
+DEBUG: Outbound stream to 169.254.144.1:14774 finished (7192 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:41156 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:41156 finished cleanly.
+169.254.144.1:14774 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:14774 has been fully acknowledged.
+DEBUG: Outbound stream to 169.254.144.1:41156 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+DEBUG: TCP connection finished cleanly.
+done.
+done.
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"t_usD_128K_8K" end time: May 17 10:27 CST
+"t_usD_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+84/169 Testing: t_usD_16_1
+84/169 Test: t_usD_16_1
+Command: "/home/shootzecond/sponge/txrx.sh" "-usDd" "16" "-w" "1"
+Directory: /home/shootzecond/sponge/build
+"t_usD_16_1" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:3838... done.
+new connection from 169.254.144.1:50865.
+DEBUG: Outbound stream to 169.254.144.1:3838 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:50865 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:3838 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to DEBUG: Outbound stream to 169.254.144.1:50865 has been fully acknowledged.
+169.254.144.1:3838 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:50865 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"t_usD_16_1" end time: May 17 10:27 CST
+"t_usD_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+85/169 Testing: t_usD_32K_d
+85/169 Test: t_usD_32K_d
+Command: "/home/shootzecond/sponge/txrx.sh" "-usDd" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_usD_32K_d" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:23879... done.
+new connection from 169.254.144.1:38883.
+DEBUG: Outbound stream to DEBUG: Outbound stream to 169.254.144.1:23879 finished (32769 bytes still in flight).
+169.254.144.1:38883 finished (32769 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:23879 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:38883 finished cleanly.
+DEBUG: Outbound stream to DEBUG: Outbound stream to 169.254.144.1:38883 has been fully acknowledged.
+169.254.144.1:23879 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"t_usD_32K_d" end time: May 17 10:27 CST
+"t_usD_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+86/169 Testing: t_ucS_128K_8K_l
+86/169 Test: t_ucS_128K_8K_l
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucSd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_ucS_128K_8K_l" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:4300... done.
+new connection from 169.254.144.1:37205.
+DEBUG: Outbound stream to 169.254.144.1:37205 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:4300 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:37205 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:4300 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:37205 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:4300 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"t_ucS_128K_8K_l" end time: May 17 10:27 CST
+"t_ucS_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+87/169 Testing: t_ucS_128K_8K_L
+87/169 Test: t_ucS_128K_8K_L
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucSd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_ucS_128K_8K_L" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:5267... done.
+new connection from 169.254.144.1:53903.
+DEBUG: Outbound stream to 169.254.144.1:53903 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:5267 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:53903 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:5267 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:53903 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:5267 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.46 sec
+----------------------------------------------------------
+Test Passed.
+"t_ucS_128K_8K_L" end time: May 17 10:27 CST
+"t_ucS_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+88/169 Testing: t_ucS_128K_8K_lL
+88/169 Test: t_ucS_128K_8K_lL
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucSd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_ucS_128K_8K_lL" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:16931... done.
+new connection from 169.254.144.1:51316.
+DEBUG: Outbound stream to 169.254.144.1:51316 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:16931 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:51316 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:16931 finished (8192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:51316 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:16931 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.81 sec
+----------------------------------------------------------
+Test Passed.
+"t_ucS_128K_8K_lL" end time: May 17 10:27 CST
+"t_ucS_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+89/169 Testing: t_ucR_128K_8K_l
+89/169 Test: t_ucR_128K_8K_l
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucRd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_ucR_128K_8K_l" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:21061... done.
+new connection from 169.254.144.1:51778.
+DEBUG: Outbound stream to 169.254.144.1:21061 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:21061 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:51778 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:51778 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:21061 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:51778 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"t_ucR_128K_8K_l" end time: May 17 10:27 CST
+"t_ucR_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+90/169 Testing: t_ucR_128K_8K_L
+90/169 Test: t_ucR_128K_8K_L
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucRd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_ucR_128K_8K_L" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:14502... done.
+new connection from 169.254.144.1:34077.
+DEBUG: Outbound stream to 169.254.144.1:14502 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:14502 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:34077 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:34077 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:14502 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:34077 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"t_ucR_128K_8K_L" end time: May 17 10:27 CST
+"t_ucR_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+91/169 Testing: t_ucR_128K_8K_lL
+91/169 Test: t_ucR_128K_8K_lL
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucRd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_ucR_128K_8K_lL" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:24314... done.
+new connection from 169.254.144.1:42704.
+DEBUG: Outbound stream to 169.254.144.1:24314 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:42704 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:24314 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:42704 finished (7192 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:24314 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:42704 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.60 sec
+----------------------------------------------------------
+Test Passed.
+"t_ucR_128K_8K_lL" end time: May 17 10:27 CST
+"t_ucR_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+92/169 Testing: t_ucD_128K_8K_l
+92/169 Test: t_ucD_128K_8K_l
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucDd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_ucD_128K_8K_l" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:32229... done.
+new connection from 169.254.144.1:52875.
+DEBUG: Outbound stream to 169.254.144.1:32229 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:52875 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:32229 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:52875 finished (6192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:32229 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:52875 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.57 sec
+----------------------------------------------------------
+Test Passed.
+"t_ucD_128K_8K_l" end time: May 17 10:27 CST
+"t_ucD_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+93/169 Testing: t_ucD_128K_8K_L
+93/169 Test: t_ucD_128K_8K_L
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucDd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_ucD_128K_8K_L" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:24308... done.
+new connection from 169.254.144.1:50508.
+DEBUG: Outbound stream to 169.254.144.1:50508 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:24308 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:50508 has been fully acknowledged.
+DEBUG: Outbound stream to 169.254.144.1:24308 finished (8191 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:50508 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:24308 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"t_ucD_128K_8K_L" end time: May 17 10:27 CST
+"t_ucD_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+94/169 Testing: t_ucD_128K_8K_lL
+94/169 Test: t_ucD_128K_8K_lL
+Command: "/home/shootzecond/sponge/txrx.sh" "-ucDd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_ucD_128K_8K_lL" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:32137... done.
+new connection from 169.254.144.1:45360.
+DEBUG: Outbound stream to 169.254.144.1:32137 finished (8192 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:32137 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:45360 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:45360 finished (8192 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:32137 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:45360 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.72 sec
+----------------------------------------------------------
+Test Passed.
+"t_ucD_128K_8K_lL" end time: May 17 10:27 CST
+"t_ucD_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+95/169 Testing: t_usS_128K_8K_l
+95/169 Test: t_usS_128K_8K_l
+Command: "/home/shootzecond/sponge/txrx.sh" "-usSd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_usS_128K_8K_l" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:15802... done.
+new connection from 169.254.144.1:40789.
+DEBUG: Outbound stream to 169.254.144.1:15802 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:15802 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:40789 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:40789 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:15802 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:40789 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"t_usS_128K_8K_l" end time: May 17 10:27 CST
+"t_usS_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+96/169 Testing: t_usS_128K_8K_L
+96/169 Test: t_usS_128K_8K_L
+Command: "/home/shootzecond/sponge/txrx.sh" "-usSd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_usS_128K_8K_L" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:25350... done.
+new connection from 169.254.144.1:55151.
+DEBUG: Outbound stream to 169.254.144.1:25350 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:25350 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:55151 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:55151 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:25350 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:55151 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"t_usS_128K_8K_L" end time: May 17 10:27 CST
+"t_usS_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+97/169 Testing: t_usS_128K_8K_lL
+97/169 Test: t_usS_128K_8K_lL
+Command: "/home/shootzecond/sponge/txrx.sh" "-usSd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_usS_128K_8K_lL" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:10202... done.
+new connection from 169.254.144.1:58308.
+DEBUG: Outbound stream to 169.254.144.1:10202 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:10202 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:58308 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:58308 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:10202 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:58308 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.76 sec
+----------------------------------------------------------
+Test Passed.
+"t_usS_128K_8K_lL" end time: May 17 10:27 CST
+"t_usS_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+98/169 Testing: t_usR_128K_8K_l
+98/169 Test: t_usR_128K_8K_l
+Command: "/home/shootzecond/sponge/txrx.sh" "-usRd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_usR_128K_8K_l" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:24462... done.
+new connection from 169.254.144.1:53137.
+DEBUG: Outbound stream to 169.254.144.1:53137 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:24462 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:53137 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:24462 finished (8192 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:53137 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:24462 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"t_usR_128K_8K_l" end time: May 17 10:27 CST
+"t_usR_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+99/169 Testing: t_usR_128K_8K_L
+99/169 Test: t_usR_128K_8K_L
+Command: "/home/shootzecond/sponge/txrx.sh" "-usRd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_usR_128K_8K_L" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:27140... done.
+new connection from 169.254.144.1:60649.
+DEBUG: Outbound stream to 169.254.144.1:60649 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:27140 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:60649 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:27140 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:60649 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:27140 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"t_usR_128K_8K_L" end time: May 17 10:27 CST
+"t_usR_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+100/169 Testing: t_usR_128K_8K_lL
+100/169 Test: t_usR_128K_8K_lL
+Command: "/home/shootzecond/sponge/txrx.sh" "-usRd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_usR_128K_8K_lL" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:15220... done.
+new connection from 169.254.144.1:36404.
+DEBUG: Outbound stream to 169.254.144.1:36404 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:15220 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:36404 has been fully acknowledged.
+DEBUG: Outbound stream to 169.254.144.1:15220 finished (8192 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:36404 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:15220 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.66 sec
+----------------------------------------------------------
+Test Passed.
+"t_usR_128K_8K_lL" end time: May 17 10:27 CST
+"t_usR_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+101/169 Testing: t_usD_128K_8K_l
+101/169 Test: t_usD_128K_8K_l
+Command: "/home/shootzecond/sponge/txrx.sh" "-usDd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_usD_128K_8K_l" start time: May 17 10:27 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:6924... done.
+new connection from 169.254.144.1:50079.
+DEBUG: Outbound stream to 169.254.144.1:50079 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:6924 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:50079 has been fully acknowledged.
+DEBUG: Outbound stream to 169.254.144.1:6924 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:50079 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:6924 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.65 sec
+----------------------------------------------------------
+Test Passed.
+"t_usD_128K_8K_l" end time: May 17 10:28 CST
+"t_usD_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+102/169 Testing: t_usD_128K_8K_L
+102/169 Test: t_usD_128K_8K_L
+Command: "/home/shootzecond/sponge/txrx.sh" "-usDd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_usD_128K_8K_L" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:22258... done.
+new connection from 169.254.144.1:53448.
+DEBUG: Outbound stream to 169.254.144.1:22258 finished (6192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:53448 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:22258 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:53448 finished (8191 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:22258 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:53448 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.56 sec
+----------------------------------------------------------
+Test Passed.
+"t_usD_128K_8K_L" end time: May 17 10:28 CST
+"t_usD_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+103/169 Testing: t_usD_128K_8K_lL
+103/169 Test: t_usD_128K_8K_lL
+Command: "/home/shootzecond/sponge/txrx.sh" "-usDd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_usD_128K_8K_lL" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:31342... done.
+new connection from 169.254.144.1:50310.
+DEBUG: Outbound stream to 169.254.144.1:31342 finished (8192 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:50310 finished (8191 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:50310 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:31342 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:31342 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:50310 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.58 sec
+----------------------------------------------------------
+Test Passed.
+"t_usD_128K_8K_lL" end time: May 17 10:28 CST
+"t_usD_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+104/169 Testing: t_ipv4_client_send
+104/169 Test: t_ipv4_client_send
+Command: "/home/shootzecond/sponge/txrx.sh" "-icS"
+Directory: /home/shootzecond/sponge/build
+"t_ipv4_client_send" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:31657... done.
+new connection from 169.254.145.1:4610.
+DEBUG: Outbound stream to 169.254.145.1:4610 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.9:31657 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.9:31657 finished (33 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:4610 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.1:4610 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.9:31657 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"t_ipv4_client_send" end time: May 17 10:28 CST
+"t_ipv4_client_send" time elapsed: 00:00:00
+----------------------------------------------------------
+
+105/169 Testing: t_ipv4_server_send
+105/169 Test: t_ipv4_server_send
+Command: "/home/shootzecond/sponge/txrx.sh" "-isS"
+Directory: /home/shootzecond/sponge/build
+"t_ipv4_server_send" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:20233... done.
+new connection from 169.254.144.1:14135.
+DEBUG: Outbound stream to 169.254.144.9:20233 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:14135 finished (33 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:14135 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.9:20233 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.9:20233 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:14135 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"t_ipv4_server_send" end time: May 17 10:28 CST
+"t_ipv4_server_send" time elapsed: 00:00:00
+----------------------------------------------------------
+
+106/169 Testing: t_ipv4_client_recv
+106/169 Test: t_ipv4_client_recv
+Command: "/home/shootzecond/sponge/txrx.sh" "-icR"
+Directory: /home/shootzecond/sponge/build
+"t_ipv4_client_recv" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:8446... done.
+new connection from 169.254.145.1:3569.
+DEBUG: Outbound stream to 169.254.145.1:3569 finished (33 bytes still in flight).
+DEBUG: Outbound stream to 169.254.145.9:8446 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.9:8446 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:3569 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.1:3569 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.9:8446 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"t_ipv4_client_recv" end time: May 17 10:28 CST
+"t_ipv4_client_recv" time elapsed: 00:00:00
+----------------------------------------------------------
+
+107/169 Testing: t_ipv4_server_recv
+107/169 Test: t_ipv4_server_recv
+Command: "/home/shootzecond/sponge/txrx.sh" "-isR"
+Directory: /home/shootzecond/sponge/build
+"t_ipv4_server_recv" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:11909... done.
+new connection from 169.254.144.1:24139.
+DEBUG: Outbound stream to 169.254.144.1:24139 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.9:11909 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.9:11909 finished (33 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:24139 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:24139 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.9:11909 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"t_ipv4_server_recv" end time: May 17 10:28 CST
+"t_ipv4_server_recv" time elapsed: 00:00:00
+----------------------------------------------------------
+
+108/169 Testing: t_ipv4_client_dupl
+108/169 Test: t_ipv4_client_dupl
+Command: "/home/shootzecond/sponge/txrx.sh" "-icD"
+Directory: /home/shootzecond/sponge/build
+"t_ipv4_client_dupl" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:6054... done.
+new connection from 169.254.145.1:62048.
+DEBUG: Outbound stream to DEBUG: Outbound stream to 169.254.145.1:62048 finished (33 bytes still in flight).
+169.254.145.9:6054 finished (33 bytes still in flight).
+DEBUG: Inbound stream from 169.254.145.1:62048 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.9:6054 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.9:6054 has been fully acknowledged.
+DEBUG: Outbound stream to 169.254.145.1:62048 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"t_ipv4_client_dupl" end time: May 17 10:28 CST
+"t_ipv4_client_dupl" time elapsed: 00:00:00
+----------------------------------------------------------
+
+109/169 Testing: t_ipv4_server_dupl
+109/169 Test: t_ipv4_server_dupl
+Command: "/home/shootzecond/sponge/txrx.sh" "-isD"
+Directory: /home/shootzecond/sponge/build
+"t_ipv4_server_dupl" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:17616... done.
+new connection from 169.254.144.1:3769.
+DEBUG: Outbound stream to 169.254.144.1:3769 finished (33 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.9:17616 finished (33 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.9:17616 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:3769 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:3769 has been fully acknowledged.
+DEBUG: Outbound stream to 169.254.144.9:17616 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"t_ipv4_server_dupl" end time: May 17 10:28 CST
+"t_ipv4_server_dupl" time elapsed: 00:00:00
+----------------------------------------------------------
+
+110/169 Testing: t_icS_1M_32k
+110/169 Test: t_icS_1M_32k
+Command: "/home/shootzecond/sponge/txrx.sh" "-icSd" "1M" "-w" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_icS_1M_32k" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:29797... done.
+new connection from 169.254.145.1:23267.
+DEBUG: Outbound stream to 169.254.145.1:23267 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.9:29797 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.1:23267 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.9:29797 finished (30768 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.1:23267 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.9:29797 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"t_icS_1M_32k" end time: May 17 10:28 CST
+"t_icS_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+111/169 Testing: t_icS_128K_8K
+111/169 Test: t_icS_128K_8K
+Command: "/home/shootzecond/sponge/txrx.sh" "-icSd" "128K" "-w" "8K"
+Directory: /home/shootzecond/sponge/build
+"t_icS_128K_8K" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:25799... done.
+new connection from 169.254.145.1:38525.
+DEBUG: Outbound stream to 169.254.145.1:38525 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.9:25799 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.1:38525 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.9:25799 finished (6192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.145.1:38525 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.9:25799 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.32 sec
+----------------------------------------------------------
+Test Passed.
+"t_icS_128K_8K" end time: May 17 10:28 CST
+"t_icS_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+112/169 Testing: t_icS_16_1
+112/169 Test: t_icS_16_1
+Command: "/home/shootzecond/sponge/txrx.sh" "-icSd" "16" "-w" "1"
+Directory: /home/shootzecond/sponge/build
+"t_icS_16_1" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:4406... done.
+new connection from 169.254.145.1:46406.
+DEBUG: Outbound stream to 169.254.145.1:46406 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.9:4406 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.9:4406 finished (1 byte still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:46406 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.1:46406 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.9:4406 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"t_icS_16_1" end time: May 17 10:28 CST
+"t_icS_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+113/169 Testing: t_icS_32K_d
+113/169 Test: t_icS_32K_d
+Command: "/home/shootzecond/sponge/txrx.sh" "-icSd" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_icS_32K_d" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:27677... done.
+new connection from 169.254.145.1:40877.
+DEBUG: Outbound stream to 169.254.145.1:40877 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.9:27677 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.1:40877 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.9:27677 finished (32769 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.1:40877 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.9:27677 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"t_icS_32K_d" end time: May 17 10:28 CST
+"t_icS_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+114/169 Testing: t_icR_1M_32k
+114/169 Test: t_icR_1M_32k
+Command: "/home/shootzecond/sponge/txrx.sh" "-icRd" "1M" "-w" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_icR_1M_32k" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:12741... done.
+new connection from 169.254.145.1:56402.
+DEBUG: Outbound stream to 169.254.145.9:12741 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.1:56402 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.9:12741 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:56402 finished (30768 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.9:12741 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.1:56402 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"t_icR_1M_32k" end time: May 17 10:28 CST
+"t_icR_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+115/169 Testing: t_icR_128K_8K
+115/169 Test: t_icR_128K_8K
+Command: "/home/shootzecond/sponge/txrx.sh" "-icRd" "128K" "-w" "8K"
+Directory: /home/shootzecond/sponge/build
+"t_icR_128K_8K" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:30544... done.
+new connection from 169.254.145.1:22529.
+DEBUG: Outbound stream to 169.254.145.9:30544 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.145.9:30544 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.145.1:22529 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:22529 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.145.9:30544 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.1:22529 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"t_icR_128K_8K" end time: May 17 10:28 CST
+"t_icR_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+116/169 Testing: t_icR_16_1
+116/169 Test: t_icR_16_1
+Command: "/home/shootzecond/sponge/txrx.sh" "-icRd" "16" "-w" "1"
+Directory: /home/shootzecond/sponge/build
+"t_icR_16_1" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:13486... done.
+new connection from 169.254.145.1:53753.
+DEBUG: Outbound stream to 169.254.145.1:53753 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.145.9:13486 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.145.9:13486 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.145.1:53753 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.9:13486 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:53753 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"t_icR_16_1" end time: May 17 10:28 CST
+"t_icR_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+117/169 Testing: t_icR_32K_d
+117/169 Test: t_icR_32K_d
+Command: "/home/shootzecond/sponge/txrx.sh" "-icRd" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_icR_32K_d" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:23579... done.
+DEBUG: Outbound stream to 169.254.145.9:23579 finished (1 byte still in flight).
+new connection from 169.254.145.1:61256.
+DEBUG: Inbound stream from 169.254.145.1:61256 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.9:23579 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:61256 finished (32769 bytes still in flight).
+DEBUG: Inbound stream from 169.254.145.9:23579 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:61256 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"t_icR_32K_d" end time: May 17 10:28 CST
+"t_icR_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+118/169 Testing: t_icD_1M_32k
+118/169 Test: t_icD_1M_32k
+Command: "/home/shootzecond/sponge/txrx.sh" "-icDd" "1M" "-w" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_icD_1M_32k" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:31513... done.
+new connection from 169.254.145.1:48304.
+DEBUG: Outbound stream to 169.254.145.1:48304 finished (31768 bytes still in flight).
+DEBUG: Outbound stream to 169.254.145.9:31513 finished (31768 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.9:31513 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.1:48304 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.1:48304 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.9:31513 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.70 sec
+----------------------------------------------------------
+Test Passed.
+"t_icD_1M_32k" end time: May 17 10:28 CST
+"t_icD_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+119/169 Testing: t_icD_128K_8K
+119/169 Test: t_icD_128K_8K
+Command: "/home/shootzecond/sponge/txrx.sh" "-icDd" "128K" "-w" "8K"
+Directory: /home/shootzecond/sponge/build
+"t_icD_128K_8K" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:30879... done.
+new connection from 169.254.145.1:4562.
+DEBUG: Outbound stream to 169.254.145.9:30879 finished (6192 bytes still in flight).
+DEBUG: Outbound stream to 169.254.145.1:4562 finished (7192 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.1:4562 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.9:30879 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.9:30879 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.1:4562 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Passed.
+"t_icD_128K_8K" end time: May 17 10:28 CST
+"t_icD_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+120/169 Testing: t_icD_16_1
+120/169 Test: t_icD_16_1
+Command: "/home/shootzecond/sponge/txrx.sh" "-icDd" "16" "-w" "1"
+Directory: /home/shootzecond/sponge/build
+"t_icD_16_1" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:32623... done.
+DEBUG: Outbound stream to 169.254.145.9:32623 finished (1 byte still in flight).
+new connection from 169.254.145.1:60426.
+DEBUG: Outbound stream to 169.254.145.1:60426 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.1:60426 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.9:32623 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.145.9:32623 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:60426 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"t_icD_16_1" end time: May 17 10:28 CST
+"t_icD_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+121/169 Testing: t_icD_32K_d
+121/169 Test: t_icD_32K_d
+Command: "/home/shootzecond/sponge/txrx.sh" "-icDd" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_icD_32K_d" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:22616... done.
+new connection from 169.254.145.1:37430.
+DEBUG: Outbound stream to 169.254.145.1:37430 finished (32769 bytes still in flight).
+DEBUG: Outbound stream to 169.254.145.9:22616 finished (32769 bytes still in flight).
+DEBUG: Inbound stream from 169.254.145.9:22616 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.1:37430 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.9:22616 has been fully acknowledged.
+DEBUG: Outbound stream to 169.254.145.1:37430 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"t_icD_32K_d" end time: May 17 10:28 CST
+"t_icD_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+122/169 Testing: t_isS_1M_32k
+122/169 Test: t_isS_1M_32k
+Command: "/home/shootzecond/sponge/txrx.sh" "-isSd" "1M" "-w" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_isS_1M_32k" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:12264... done.
+new connection from 169.254.144.1:46906.
+DEBUG: Outbound stream to 169.254.144.9:12264 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:46906 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.9:12264 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:46906 finished (30768 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.9:12264 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:46906 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.60 sec
+----------------------------------------------------------
+Test Passed.
+"t_isS_1M_32k" end time: May 17 10:28 CST
+"t_isS_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+123/169 Testing: t_isS_128K_8K
+123/169 Test: t_isS_128K_8K
+Command: "/home/shootzecond/sponge/txrx.sh" "-isSd" "128K" "-w" "8K"
+Directory: /home/shootzecond/sponge/build
+"t_isS_128K_8K" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:24095... done.
+DEBUG: Outbound stream to 169.254.144.9:24095 finished (1 byte still in flight).
+new connection from 169.254.144.1:38232.
+DEBUG: Inbound stream from 169.254.144.1:38232 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.9:24095 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:38232 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.9:24095 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:38232 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"t_isS_128K_8K" end time: May 17 10:28 CST
+"t_isS_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+124/169 Testing: t_isS_16_1
+124/169 Test: t_isS_16_1
+Command: "/home/shootzecond/sponge/txrx.sh" "-isSd" "16" "-w" "1"
+Directory: /home/shootzecond/sponge/build
+"t_isS_16_1" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:4595... done.
+DEBUG: Outbound stream to 169.254.144.9:4595 finished (1 byte still in flight).
+new connection from 169.254.144.1:22167.
+DEBUG: Outbound stream to 169.254.144.1:22167 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:22167 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.9:4595 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.9:4595 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:22167 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"t_isS_16_1" end time: May 17 10:28 CST
+"t_isS_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+125/169 Testing: t_isS_32K_d
+125/169 Test: t_isS_32K_d
+Command: "/home/shootzecond/sponge/txrx.sh" "-isSd" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_isS_32K_d" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:5341... done.
+new connection from 169.254.144.1:11096.
+DEBUG: Outbound stream to 169.254.144.9:5341 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:11096 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.9:5341 has been fully acknowledged.
+DEBUG: Outbound stream to 169.254.144.1:11096 finished (32769 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.9:5341 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:11096 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"t_isS_32K_d" end time: May 17 10:28 CST
+"t_isS_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+126/169 Testing: t_isR_1M_32k
+126/169 Test: t_isR_1M_32k
+Command: "/home/shootzecond/sponge/txrx.sh" "-isRd" "1M" "-w" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_isR_1M_32k" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:14041... done.
+new connection from 169.254.144.1:26774.
+DEBUG: Outbound stream to 169.254.144.1:26774 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.9:14041 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:26774 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.9:14041 finished (30768 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:26774 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.9:14041 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"t_isR_1M_32k" end time: May 17 10:28 CST
+"t_isR_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+127/169 Testing: t_isR_128K_8K
+127/169 Test: t_isR_128K_8K
+Command: "/home/shootzecond/sponge/txrx.sh" "-isRd" "128K" "-w" "8K"
+Directory: /home/shootzecond/sponge/build
+"t_isR_128K_8K" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:11442... done.
+new connection from 169.254.144.1:18771.
+DEBUG: Outbound stream to 169.254.144.1:18771 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.9:11442 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:18771 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.9:11442 finished (6192 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:18771 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.9:11442 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"t_isR_128K_8K" end time: May 17 10:28 CST
+"t_isR_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+128/169 Testing: t_isR_16_1
+128/169 Test: t_isR_16_1
+Command: "/home/shootzecond/sponge/txrx.sh" "-isRd" "16" "-w" "1"
+Directory: /home/shootzecond/sponge/build
+"t_isR_16_1" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:29745... done.
+new connection from 169.254.144.1:53166.
+DEBUG: Outbound stream to 169.254.144.9:29745 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:53166 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.9:29745 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:53166 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:53166 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.9:29745 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"t_isR_16_1" end time: May 17 10:28 CST
+"t_isR_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+129/169 Testing: t_isR_32K_d
+129/169 Test: t_isR_32K_d
+Command: "/home/shootzecond/sponge/txrx.sh" "-isRd" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_isR_32K_d" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:19976... done.
+new connection from 169.254.144.1:61127.
+DEBUG: Outbound stream to 169.254.144.1:61127 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.9:19976 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:61127 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.9:19976 finished (32769 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:61127 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.9:19976 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"t_isR_32K_d" end time: May 17 10:28 CST
+"t_isR_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+130/169 Testing: t_isD_1M_32k
+130/169 Test: t_isD_1M_32k
+Command: "/home/shootzecond/sponge/txrx.sh" "-isDd" "1M" "-w" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_isD_1M_32k" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:18077... done.
+new connection from 169.254.144.1:43032.
+DEBUG: Outbound stream to 169.254.144.9:18077 finished (31768 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:43032 finished (31768 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:43032 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.9:18077 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.9:18077 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:43032 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.70 sec
+----------------------------------------------------------
+Test Passed.
+"t_isD_1M_32k" end time: May 17 10:28 CST
+"t_isD_1M_32k" time elapsed: 00:00:00
+----------------------------------------------------------
+
+131/169 Testing: t_isD_128K_8K
+131/169 Test: t_isD_128K_8K
+Command: "/home/shootzecond/sponge/txrx.sh" "-isDd" "128K" "-w" "8K"
+Directory: /home/shootzecond/sponge/build
+"t_isD_128K_8K" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:26872... done.
+new connection from 169.254.144.1:35263.
+DEBUG: Outbound stream to 169.254.144.9:26872 finished (7192 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:35263 finished (7192 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:35263 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.9:26872 finished cleanly.
+DEBUG: Outbound stream to DEBUG: Outbound stream to 169.254.144.1:35263 has been fully acknowledged.
+169.254.144.9:26872 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+DEBUG: TCP connection finished cleanly.
+done.
+done.
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Passed.
+"t_isD_128K_8K" end time: May 17 10:28 CST
+"t_isD_128K_8K" time elapsed: 00:00:00
+----------------------------------------------------------
+
+132/169 Testing: t_isD_16_1
+132/169 Test: t_isD_16_1
+Command: "/home/shootzecond/sponge/txrx.sh" "-isDd" "16" "-w" "1"
+Directory: /home/shootzecond/sponge/build
+"t_isD_16_1" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:12769... done.
+DEBUG: Outbound stream to 169.254.144.9:12769 finished (1 byte still in flight).
+new connection from 169.254.144.1:31016.
+DEBUG: Outbound stream to 169.254.144.1:31016 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:31016 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.9:12769 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.9:12769 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:31016 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"t_isD_16_1" end time: May 17 10:28 CST
+"t_isD_16_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+133/169 Testing: t_isD_32K_d
+133/169 Test: t_isD_32K_d
+Command: "/home/shootzecond/sponge/txrx.sh" "-isDd" "32K"
+Directory: /home/shootzecond/sponge/build
+"t_isD_32K_d" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:19999... done.
+new connection from 169.254.144.1:51358.
+DEBUG: Outbound stream to 169.254.144.9:19999 finished (32769 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:51358 finished (32769 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:51358 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.9:19999 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:51358 has been fully acknowledged.
+DEBUG: Outbound stream to 169.254.144.9:19999 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"t_isD_32K_d" end time: May 17 10:28 CST
+"t_isD_32K_d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+134/169 Testing: t_icS_128K_8K_l
+134/169 Test: t_icS_128K_8K_l
+Command: "/home/shootzecond/sponge/txrx.sh" "-icSd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_icS_128K_8K_l" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:3782... done.
+new connection from 169.254.145.1:65050.
+DEBUG: Outbound stream to 169.254.145.1:65050 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.9:3782 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.1:65050 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.9:3782 finished (6192 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.1:65050 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.9:3782 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"t_icS_128K_8K_l" end time: May 17 10:28 CST
+"t_icS_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+135/169 Testing: t_icS_128K_8K_L
+135/169 Test: t_icS_128K_8K_L
+Command: "/home/shootzecond/sponge/txrx.sh" "-icSd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_icS_128K_8K_L" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:29806... done.
+new connection from 169.254.145.1:23103.
+DEBUG: Outbound stream to 169.254.145.1:23103 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.9:29806 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.1:23103 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.9:29806 finished (6000 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.1:23103 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.9:29806 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"t_icS_128K_8K_L" end time: May 17 10:28 CST
+"t_icS_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+136/169 Testing: t_icS_128K_8K_lL
+136/169 Test: t_icS_128K_8K_lL
+Command: "/home/shootzecond/sponge/txrx.sh" "-icSd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_icS_128K_8K_lL" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:4204... done.
+new connection from 169.254.145.1:12892.
+DEBUG: Outbound stream to 169.254.145.1:12892 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.9:4204 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:12892 has been fully acknowledged.
+DEBUG: Outbound stream to 169.254.145.9:4204 finished (8192 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.1:12892 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.9:4204 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.67 sec
+----------------------------------------------------------
+Test Passed.
+"t_icS_128K_8K_lL" end time: May 17 10:28 CST
+"t_icS_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+137/169 Testing: t_icR_128K_8K_l
+137/169 Test: t_icR_128K_8K_l
+Command: "/home/shootzecond/sponge/txrx.sh" "-icRd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_icR_128K_8K_l" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:31002... done.
+new connection from 169.254.145.1:23425.
+DEBUG: Outbound stream to 169.254.145.9:31002 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.1:23425 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.9:31002 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:23425 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.145.9:31002 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.1:23425 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Passed.
+"t_icR_128K_8K_l" end time: May 17 10:28 CST
+"t_icR_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+138/169 Testing: t_icR_128K_8K_L
+138/169 Test: t_icR_128K_8K_L
+Command: "/home/shootzecond/sponge/txrx.sh" "-icRd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_icR_128K_8K_L" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:27108... done.
+DEBUG: Outbound stream to 169.254.145.9:27108 finished (1 byte still in flight).
+new connection from 169.254.145.1:14882.
+DEBUG: Inbound stream from 169.254.145.1:14882 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.9:27108 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:14882 finished (7192 bytes still in flight).
+DEBUG: Outbound stream to 169.254.145.1:14882 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: Inbound stream from 169.254.145.9:27108 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"t_icR_128K_8K_L" end time: May 17 10:28 CST
+"t_icR_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+139/169 Testing: t_icR_128K_8K_lL
+139/169 Test: t_icR_128K_8K_lL
+Command: "/home/shootzecond/sponge/txrx.sh" "-icRd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_icR_128K_8K_lL" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:13042... done.
+new connection from 169.254.145.1:23110.
+DEBUG: Outbound stream to 169.254.145.9:13042 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.145.1:23110 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.9:13042 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:23110 finished (6192 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.9:13042 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.1:23110 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.46 sec
+----------------------------------------------------------
+Test Passed.
+"t_icR_128K_8K_lL" end time: May 17 10:28 CST
+"t_icR_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+140/169 Testing: t_icD_128K_8K_l
+140/169 Test: t_icD_128K_8K_l
+Command: "/home/shootzecond/sponge/txrx.sh" "-icDd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_icD_128K_8K_l" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:4324... done.
+new connection from 169.254.145.1:49419.
+DEBUG: Outbound stream to 169.254.145.9:4324 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.145.1:49419 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.9:4324 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.1:49419 finished (8001 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.145.9:4324 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.1:49419 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"t_icD_128K_8K_l" end time: May 17 10:28 CST
+"t_icD_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+141/169 Testing: t_icD_128K_8K_L
+141/169 Test: t_icD_128K_8K_L
+Command: "/home/shootzecond/sponge/txrx.sh" "-icDd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_icD_128K_8K_L" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:5610... done.
+new connection from 169.254.145.1:45808.
+DEBUG: Outbound stream to 169.254.145.1:45808 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.145.9:5610 finished cleanly.
+DEBUG: Outbound stream to 169.254.145.1:45808 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.9:5610 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.145.1:45808 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.9:5610 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"t_icD_128K_8K_L" end time: May 17 10:28 CST
+"t_icD_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+142/169 Testing: t_icD_128K_8K_lL
+142/169 Test: t_icD_128K_8K_lL
+Command: "/home/shootzecond/sponge/txrx.sh" "-icDd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_icD_128K_8K_lL" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:25585... done.
+new connection from 169.254.145.1:25412.
+DEBUG: Outbound stream to 169.254.145.9:25585 finished (8192 bytes still in flight).
+DEBUG: Outbound stream to 169.254.145.1:25412 finished (8192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.145.1:25412 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.145.9:25585 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.145.9:25585 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.145.1:25412 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.60 sec
+----------------------------------------------------------
+Test Passed.
+"t_icD_128K_8K_lL" end time: May 17 10:28 CST
+"t_icD_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+143/169 Testing: t_isS_128K_8K_l
+143/169 Test: t_isS_128K_8K_l
+Command: "/home/shootzecond/sponge/txrx.sh" "-isSd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_isS_128K_8K_l" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:8761... done.
+DEBUG: Outbound stream to 169.254.144.9:8761 finished (1 byte still in flight).
+new connection from 169.254.144.1:49265.
+DEBUG: Inbound stream from 169.254.144.1:49265 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.9:8761 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:49265 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.9:8761 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:49265 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"t_isS_128K_8K_l" end time: May 17 10:28 CST
+"t_isS_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+144/169 Testing: t_isS_128K_8K_L
+144/169 Test: t_isS_128K_8K_L
+Command: "/home/shootzecond/sponge/txrx.sh" "-isSd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_isS_128K_8K_L" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:15007... done.
+new connection from 169.254.144.1:44003.
+DEBUG: Outbound stream to 169.254.144.9:15007 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.1:44003 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.9:15007 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:44003 finished (8192 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.9:15007 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:44003 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"t_isS_128K_8K_L" end time: May 17 10:28 CST
+"t_isS_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+145/169 Testing: t_isS_128K_8K_lL
+145/169 Test: t_isS_128K_8K_lL
+Command: "/home/shootzecond/sponge/txrx.sh" "-isSd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_isS_128K_8K_lL" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:24061... done.
+DEBUG: Outbound stream to 169.254.144.9:24061 finished (1 byte still in flight).
+new connection from 169.254.144.1:59023.
+DEBUG: Inbound stream from 169.254.144.1:59023 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.9:24061 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:59023 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.9:24061 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:59023 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"t_isS_128K_8K_lL" end time: May 17 10:28 CST
+"t_isS_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+146/169 Testing: t_isR_128K_8K_l
+146/169 Test: t_isR_128K_8K_l
+Command: "/home/shootzecond/sponge/txrx.sh" "-isRd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_isR_128K_8K_l" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:10179... done.
+new connection from 169.254.144.1:29198.
+DEBUG: Outbound stream to 169.254.144.1:29198 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.9:10179 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:29198 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.9:10179 finished (7192 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:29198 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.9:10179 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.78 sec
+----------------------------------------------------------
+Test Passed.
+"t_isR_128K_8K_l" end time: May 17 10:28 CST
+"t_isR_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+147/169 Testing: t_isR_128K_8K_L
+147/169 Test: t_isR_128K_8K_L
+Command: "/home/shootzecond/sponge/txrx.sh" "-isRd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_isR_128K_8K_L" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:32333... done.
+new connection from 169.254.144.1:11185.
+DEBUG: Outbound stream to 169.254.144.1:11185 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.9:32333 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:11185 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.9:32333 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:11185 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.9:32333 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"t_isR_128K_8K_L" end time: May 17 10:28 CST
+"t_isR_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+148/169 Testing: t_isR_128K_8K_lL
+148/169 Test: t_isR_128K_8K_lL
+Command: "/home/shootzecond/sponge/txrx.sh" "-isRd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_isR_128K_8K_lL" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:13318... done.
+new connection from 169.254.144.1:23912.
+DEBUG: Outbound stream to 169.254.144.1:23912 finished (1 byte still in flight).
+DEBUG: Inbound stream from 169.254.144.9:13318 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:23912 has been fully acknowledged.
+DEBUG: Outbound stream to 169.254.144.9:13318 finished (8191 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:23912 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.9:13318 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.65 sec
+----------------------------------------------------------
+Test Passed.
+"t_isR_128K_8K_lL" end time: May 17 10:28 CST
+"t_isR_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+149/169 Testing: t_isD_128K_8K_l
+149/169 Test: t_isD_128K_8K_l
+Command: "/home/shootzecond/sponge/txrx.sh" "-isDd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_isD_128K_8K_l" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:1991... done.
+new connection from 169.254.144.1:6305.
+DEBUG: Outbound stream to 169.254.144.1:6305 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.9:1991 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:6305 has been fully acknowledged.
+DEBUG: Outbound stream to 169.254.144.9:1991 finished (7192 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:6305 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.9:1991 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"t_isD_128K_8K_l" end time: May 17 10:28 CST
+"t_isD_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+150/169 Testing: t_isD_128K_8K_L
+150/169 Test: t_isD_128K_8K_L
+Command: "/home/shootzecond/sponge/txrx.sh" "-isDd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_isD_128K_8K_L" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:2344... done.
+new connection from 169.254.144.1:34177.
+DEBUG: Outbound stream to 169.254.144.9:2344 finished (8000 bytes still in flight).
+DEBUG: Inbound stream from 169.254.144.1:34177 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.9:2344 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:34177 finished (1192 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.9:2344 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.1:34177 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.56 sec
+----------------------------------------------------------
+Test Passed.
+"t_isD_128K_8K_L" end time: May 17 10:28 CST
+"t_isD_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+151/169 Testing: t_isD_128K_8K_lL
+151/169 Test: t_isD_128K_8K_lL
+Command: "/home/shootzecond/sponge/txrx.sh" "-isDd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_isD_128K_8K_lL" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:8720... done.
+new connection from 169.254.144.1:48759.
+DEBUG: Outbound stream to 169.254.144.9:8720 finished (8192 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:48759 finished (7001 bytes still in flight).
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.9:8720 finished cleanly.
+DEBUG: Outbound stream to 169.254.144.1:48759 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:48759 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Outbound stream to 169.254.144.9:8720 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.77 sec
+----------------------------------------------------------
+Test Passed.
+"t_isD_128K_8K_lL" end time: May 17 10:28 CST
+"t_isD_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+152/169 Testing: t_icnS_128K_8K_l
+152/169 Test: t_icnS_128K_8K_l
+Command: "/home/shootzecond/sponge/txrx.sh" "-icSnd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_icnS_128K_8K_l" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:7191... done.
+DEBUG: Inbound stream from 169.254.144.1:7191 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:7191 finished (64000 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:7191 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"t_icnS_128K_8K_l" end time: May 17 10:28 CST
+"t_icnS_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+153/169 Testing: t_icnS_128K_8K_L
+153/169 Test: t_icnS_128K_8K_L
+Command: "/home/shootzecond/sponge/txrx.sh" "-icSnd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_icnS_128K_8K_L" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:30435... done.
+DEBUG: Inbound stream from 169.254.144.1:30435 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:30435 finished (30000 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:30435 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.38 sec
+----------------------------------------------------------
+Test Passed.
+"t_icnS_128K_8K_L" end time: May 17 10:28 CST
+"t_icnS_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+154/169 Testing: t_icnS_128K_8K_lL
+154/169 Test: t_icnS_128K_8K_lL
+Command: "/home/shootzecond/sponge/txrx.sh" "-icSnd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_icnS_128K_8K_lL" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:26207... done.
+DEBUG: Inbound stream from 169.254.144.1:26207 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:26207 finished (36000 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:26207 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.60 sec
+----------------------------------------------------------
+Test Passed.
+"t_icnS_128K_8K_lL" end time: May 17 10:28 CST
+"t_icnS_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+155/169 Testing: t_icnR_128K_8K_l
+155/169 Test: t_icnR_128K_8K_l
+Command: "/home/shootzecond/sponge/txrx.sh" "-icRnd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_icnR_128K_8K_l" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:19910... done.
+DEBUG: Outbound stream to 169.254.144.1:19910 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:19910 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:19910 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"t_icnR_128K_8K_l" end time: May 17 10:28 CST
+"t_icnR_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+156/169 Testing: t_icnR_128K_8K_L
+156/169 Test: t_icnR_128K_8K_L
+Command: "/home/shootzecond/sponge/txrx.sh" "-icRnd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_icnR_128K_8K_L" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:10478... done.
+DEBUG: Outbound stream to 169.254.144.1:10478 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:10478 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:10478 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"t_icnR_128K_8K_L" end time: May 17 10:28 CST
+"t_icnR_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+157/169 Testing: t_icnR_128K_8K_lL
+157/169 Test: t_icnR_128K_8K_lL
+Command: "/home/shootzecond/sponge/txrx.sh" "-icRnd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_icnR_128K_8K_lL" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:2122... done.
+DEBUG: Outbound stream to 169.254.144.1:2122 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:2122 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:2122 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.70 sec
+----------------------------------------------------------
+Test Passed.
+"t_icnR_128K_8K_lL" end time: May 17 10:28 CST
+"t_icnR_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+158/169 Testing: t_icnD_128K_8K_l
+158/169 Test: t_icnD_128K_8K_l
+Command: "/home/shootzecond/sponge/txrx.sh" "-icDnd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_icnD_128K_8K_l" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:27048... done.
+DEBUG: Outbound stream to 169.254.144.1:27048 finished (64000 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:27048 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:27048 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   1.47 sec
+----------------------------------------------------------
+Test Passed.
+"t_icnD_128K_8K_l" end time: May 17 10:28 CST
+"t_icnD_128K_8K_l" time elapsed: 00:00:01
+----------------------------------------------------------
+
+159/169 Testing: t_icnD_128K_8K_L
+159/169 Test: t_icnD_128K_8K_L
+Command: "/home/shootzecond/sponge/txrx.sh" "-icDnd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_icnD_128K_8K_L" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:13322... done.
+DEBUG: Inbound stream from 169.254.144.1:13322 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:13322 finished (51000 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:13322 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Passed.
+"t_icnD_128K_8K_L" end time: May 17 10:28 CST
+"t_icnD_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+160/169 Testing: t_icnD_128K_8K_lL
+160/169 Test: t_icnD_128K_8K_lL
+Command: "/home/shootzecond/sponge/txrx.sh" "-icDnd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_icnD_128K_8K_lL" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Connecting to 169.254.144.1:18794... done.
+DEBUG: Outbound stream to 169.254.144.1:18794 finished (56000 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:18794 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:18794 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.57 sec
+----------------------------------------------------------
+Test Passed.
+"t_icnD_128K_8K_lL" end time: May 17 10:28 CST
+"t_icnD_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+161/169 Testing: t_isnS_128K_8K_l
+161/169 Test: t_isnS_128K_8K_l
+Command: "/home/shootzecond/sponge/txrx.sh" "-isSnd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_isnS_128K_8K_l" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... new connection from 169.254.144.1:36518.
+DEBUG: Inbound stream from 169.254.144.1:36518 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:36518 finished (64000 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:36518 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   1.19 sec
+----------------------------------------------------------
+Test Passed.
+"t_isnS_128K_8K_l" end time: May 17 10:28 CST
+"t_isnS_128K_8K_l" time elapsed: 00:00:01
+----------------------------------------------------------
+
+162/169 Testing: t_isnS_128K_8K_L
+162/169 Test: t_isnS_128K_8K_L
+Command: "/home/shootzecond/sponge/txrx.sh" "-isSnd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_isnS_128K_8K_L" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... new connection from 169.254.144.1:35386.
+DEBUG: Inbound stream from 169.254.144.1:35386 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:35386 finished (34000 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:35386 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"t_isnS_128K_8K_L" end time: May 17 10:28 CST
+"t_isnS_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+163/169 Testing: t_isnS_128K_8K_lL
+163/169 Test: t_isnS_128K_8K_lL
+Command: "/home/shootzecond/sponge/txrx.sh" "-isSnd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_isnS_128K_8K_lL" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... new connection from 169.254.144.1:51868.
+DEBUG: Inbound stream from 169.254.144.1:51868 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:51868 finished (64000 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:51868 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.39 sec
+----------------------------------------------------------
+Test Passed.
+"t_isnS_128K_8K_lL" end time: May 17 10:28 CST
+"t_isnS_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+164/169 Testing: t_isnR_128K_8K_l
+164/169 Test: t_isnR_128K_8K_l
+Command: "/home/shootzecond/sponge/txrx.sh" "-isRnd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_isnR_128K_8K_l" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... new connection from 169.254.144.1:55468.
+DEBUG: Outbound stream to 169.254.144.1:55468 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:55468 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:55468 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"t_isnR_128K_8K_l" end time: May 17 10:28 CST
+"t_isnR_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+165/169 Testing: t_isnR_128K_8K_L
+165/169 Test: t_isnR_128K_8K_L
+Command: "/home/shootzecond/sponge/txrx.sh" "-isRnd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_isnR_128K_8K_L" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... new connection from 169.254.144.1:50224.
+DEBUG: Outbound stream to 169.254.144.1:50224 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:50224 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:50224 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"t_isnR_128K_8K_L" end time: May 17 10:28 CST
+"t_isnR_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+166/169 Testing: t_isnR_128K_8K_lL
+166/169 Test: t_isnR_128K_8K_lL
+Command: "/home/shootzecond/sponge/txrx.sh" "-isRnd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_isnR_128K_8K_lL" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... new connection from 169.254.144.1:45242.
+DEBUG: Outbound stream to 169.254.144.1:45242 finished (1 byte still in flight).
+DEBUG: Outbound stream to 169.254.144.1:45242 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:45242 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.86 sec
+----------------------------------------------------------
+Test Passed.
+"t_isnR_128K_8K_lL" end time: May 17 10:28 CST
+"t_isnR_128K_8K_lL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+167/169 Testing: t_isnD_128K_8K_l
+167/169 Test: t_isnD_128K_8K_l
+Command: "/home/shootzecond/sponge/txrx.sh" "-isDnd" "128K" "-w" "8K" "-l" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_isnD_128K_8K_l" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... new connection from 169.254.144.1:60486.
+DEBUG: Outbound stream to 169.254.144.1:60486 finished (64000 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:60486 has been fully acknowledged.
+DEBUG: Inbound stream from 169.254.144.1:60486 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: Waiting for clean shutdown... DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Passed.
+"t_isnD_128K_8K_l" end time: May 17 10:28 CST
+"t_isnD_128K_8K_l" time elapsed: 00:00:00
+----------------------------------------------------------
+
+168/169 Testing: t_isnD_128K_8K_L
+168/169 Test: t_isnD_128K_8K_L
+Command: "/home/shootzecond/sponge/txrx.sh" "-isDnd" "128K" "-w" "8K" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_isnD_128K_8K_L" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... new connection from 169.254.144.1:45010.
+DEBUG: Inbound stream from 169.254.144.1:45010 finished cleanly.
+DEBUG: Waiting for clean shutdown... DEBUG: Outbound stream to 169.254.144.1:45010 finished (32000 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:45010 has been fully acknowledged.
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   0.36 sec
+----------------------------------------------------------
+Test Passed.
+"t_isnD_128K_8K_L" end time: May 17 10:28 CST
+"t_isnD_128K_8K_L" time elapsed: 00:00:00
+----------------------------------------------------------
+
+169/169 Testing: t_isnD_128K_8K_lL
+169/169 Test: t_isnD_128K_8K_lL
+Command: "/home/shootzecond/sponge/txrx.sh" "-isDnd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
+Directory: /home/shootzecond/sponge/build
+"t_isnD_128K_8K_lL" start time: May 17 10:28 CST
+Output:
+----------------------------------------------------------
+DEBUG: Listening for incoming connection... new connection from 169.254.144.1:47658.
+DEBUG: Outbound stream to 169.254.144.1:47658 finished (64000 bytes still in flight).
+DEBUG: Outbound stream to 169.254.144.1:47658 has been fully acknowledged.
+DEBUG: Waiting for clean shutdown... DEBUG: Inbound stream from 169.254.144.1:47658 finished cleanly.
+DEBUG: Waiting for lingering segments (e.g. retransmissions of FIN) from peer...
+DEBUG: TCP connection finished cleanly.
+done.
+<end of output>
+Test time =   5.17 sec
+----------------------------------------------------------
+Test Passed.
+"t_isnD_128K_8K_lL" end time: May 17 10:28 CST
+"t_isnD_128K_8K_lL" time elapsed: 00:00:05
+----------------------------------------------------------
+
+End testing: May 17 10:28 CST
