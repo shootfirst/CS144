@@ -1,4 +1,6 @@
 # CS144 斯坦福2021秋季计算机网络实验
+cs144官网：https://kangyupl.gitee.io/cs144.github.io/
+参考博客：http://doraemonzzz.com/tags/CS144/    https://kiprey.github.io/tags/CS144/
 
 ## lab0
 
@@ -141,7 +143,13 @@ Connection: close
             + 跟踪连续重新传输的次数，并增加它
             + 将RTO的值增加一倍（指数回退）
            之后启动重传timer
-        
+           
+           
+           
+## lab4
+实验四将之前写的sender和reciever结合起来，实现可以真正和其他世界各地计算机进行对话的tcp协议。
+首先应该熟悉tcp状态机，tcp高达11个状态（加上error12），这是cs144官方给的图片：
+
     
   
     
