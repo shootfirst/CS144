@@ -204,12 +204,32 @@ Connection: close
         
         
 好了最后便是将你写的所有代码整合起来
+
+
+
 ![lab4结果](lab4_grades.png)
 
+
+
+
+
+
 流量测试，勉强过关
+
+
+
 ![流量测试](tcp_performance.png)
 
+
+
+
+
+
+
 最后回到梦开始的地方，将webget使用你自己写的tcp协议，和世界各地的计算机对话吧
+
+
+
 ![webget](webget.png)
     
         
