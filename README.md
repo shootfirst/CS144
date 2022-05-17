@@ -148,7 +148,9 @@ Connection: close
            
 ## lab4
 实验四将之前写的sender和reciever结合起来，实现可以真正和其他世界各地计算机进行对话的tcp协议。
-首先应该熟悉tcp状态机，tcp高达11个状态（加上error12），这是cs144官方给的图片：
+首先应该熟悉tcp状态机：
+![tcp状态机](tcp_state.png)
+
 
     
   
