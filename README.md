@@ -183,7 +183,10 @@ Connection: close
 
 同时阅读理解tcp_state.hh和tcp_state.cc源码。
 在能将这三个图片熟悉（甚至背下来）后，关键在于理解三次握手和四次挥手，之后开始写相关函数，我将相关函数分为三类：
+
+
     + 连接函数
+    
         - remaining_outbound_capacity
         
         - bytes_in_flight
