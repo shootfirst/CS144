@@ -1,4 +1,5 @@
-#include "socket.hh"
+// #include "socket.hh"
+#include "tcp_sponge_socket.hh"
 #include "util.hh"
 
 #include <cstdlib>
@@ -8,7 +9,8 @@ using namespace std;
 
 void get_URL(const string &host, const string &path) {
     Address address(host, "http");
-    TCPSocket sock;
+    // TCPSocket sock;
+    CS144TCPSocket sock;
     sock.connect(address);
     sock.write("GET " + path + " HTTP/1.1\r\n");
     sock.write("Host: " + host + "\r\n");
@@ -22,6 +24,7 @@ void get_URL(const string &host, const string &path) {
     }
     std::cout << res;
     sock.close();
+    sock.wait_until_closed();
 }
 
 int main(int argc, char *argv[]) {
