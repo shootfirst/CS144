@@ -1,0 +1,43 @@
+Start testing: May 20 09:10 CST
+----------------------------------------------------------
+31/169 Testing: t_webget
+31/169 Test: t_webget
+Command: "/home/shootzecond/sponge/tests/webget_t.sh"
+Directory: /home/shootzecond/sponge/build
+"t_webget" start time: May 20 09:10 CST
+Output:
+----------------------------------------------------------
+HTTP/1.1 200 OK
+Content-type: text/plain
+
+7SmXqWkrLKzVBCEalbSPqBcvs11Pw263K7x4Wv3JckI
+<end of output>
+Test time =   1.41 sec
+----------------------------------------------------------
+Test Passed.
+"t_webget" end time: May 20 09:10 CST
+"t_webget" time elapsed: 00:00:01
+----------------------------------------------------------
+
+32/169 Testing: arp_network_interface
+32/169 Test: arp_network_interface
+Command: "/home/shootzecond/sponge/build/tests/net_interface"
+Directory: /home/shootzecond/sponge/build
+"arp_network_interface" start time: May 20 09:10 CST
+Output:
+----------------------------------------------------------
+DEBUG: Network interface has Ethernet address fa:f9:ad:d9:ba:b9 and IP address 4.3.2.1
+DEBUG: Network interface has Ethernet address 46:62:8e:84:dc:e0 and IP address 5.5.5.5
+DEBUG: Network interface has Ethernet address b6:7d:b1:0d:93:f5 and IP address 5.5.5.5
+DEBUG: Network interface has Ethernet address 0e:b7:60:53:ee:46 and IP address 1.2.3.4
+DEBUG: Network interface has Ethernet address c6:8e:54:01:4e:67 and IP address 4.3.2.1
+DEBUG: Network interface has Ethernet address 92:ca:4e:99:bf:fe and IP address 10.0.0.1
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"arp_network_interface" end time: May 20 09:10 CST
+"arp_network_interface" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 20 09:10 CST
