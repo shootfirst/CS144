@@ -2,7 +2,7 @@
 
 cs144官网：https://kangyupl.gitee.io/cs144.github.io/
 
-参考博客：http://doraemonzzz.com/tags/CS144/    https://kiprey.github.io/tags/CS144/
+参考博客：http://doraemonzzz.com/tags/CS144/    https://kiprey.github.io/tgs/CS144/
 
 ## lab0
 
