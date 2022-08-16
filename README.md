@@ -17,6 +17,7 @@ cs144官网：https://kangyupl.gitee.io/cs144.github.io/
 GET /hello HTTP/1.1
 Host: http://cs144.Keithw.org
 Connection: close
+
 你在写程序时应该这样"GET " + path + " " + "HTTP/1.1\r\nHost: " + host + "\r\nConnection: close\r\n\r\n"。
 
 其次是调用shutdown函数时注意传入的参数，第一次我传入SHUT_RDWT,导致报错：read: Connection reset by peer
