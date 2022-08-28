@@ -1,6 +1,6 @@
 # CS144 斯坦福2021秋季计算机网络实验
 
-cs144官网：https://kangyupl.gitee.io/cs144.github.io/
+cs144官网：https://cs144.github.io/
 
 参考博客：http://doraemonzzz.com/tags/CS144/    https://kiprey.github.io/tgs/CS144/
 
