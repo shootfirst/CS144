@@ -21,6 +21,8 @@ class ByteStream {
     // all, but if any of your tests are taking longer than a second,
     // that's a sign that you probably want to keep exploring
     // different approaches.
+  
+    // I use list to store the char to send or recv
     std::list<char> buffer = {};
     size_t size;
 
