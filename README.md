@@ -200,30 +200,30 @@ TCP序列号不从零开始：为了提高安全性和避免不同连接之间�
 
 #### segment received
         
-    主要方法：对于 TCPReceiver 来说，除了错误状态以外，它一共有3种状态，分别是：
+主要方法：对于 TCPReceiver 来说，除了错误状态以外，它一共有3种状态，分别是：
 
-    + LISTEN：等待 SYN 包的到来。若在 SYN 包到来前就有其他数据到来，则必须丢弃
-    + SYN_RECV：获取到了 SYN 包，此时可以正常的接收数据包
-    + FIN_RECV：input_end，此时务必终止 ByteStream 数据流的输入
-            
-    状态设置：
-            
-    + 当 isn 还没设置时，肯定是 LISTEN 状态
-    + 当 ByteStream.input_ended()，则肯定是 FIN_RECV 状态
-    + 其他情况下，是 SYN_RECV 状态
++ LISTEN：等待 SYN 包的到来。若在 SYN 包到来前就有其他数据到来，则必须丢弃
++ SYN_RECV：获取到了 SYN 包，此时可以正常的接收数据包
++ FIN_RECV：input_end，此时务必终止 ByteStream 数据流的输入
         
-    ackno 的计算必须考虑到 SYN 和 FIN 标志，因为这两个标志各占一个 seqno。故在返回 ackno 时，务必判断当前 接收者处于什么状态，然后依据当前状态来判断是否需要对当前的计算结
-    果加1或加2。而这条准则对 push_substring 时同样适用。
+状态设置：
+        
++ 当 isn 还没设置时，肯定是 LISTEN 状态
++ 当 ByteStream.input_ended()，则肯定是 FIN_RECV 状态
++ 其他情况下，是 SYN_RECV 状态
+    
+ackno 的计算必须考虑到 SYN 和 FIN 标志，因为这两个标志各占一个 seqno。故在返回 ackno 时，务必判断当前 接收者处于什么状态，然后依据当前状态来判断
+是否需要对当前的计算结果加1或加2。而这条准则对 push_substring 时同样适用。
         
         
 
 #### ackno
     
-    返回一个可选的<WrappingInt32>，包含接收方尚未知道的第一个字节的序列号。这就是窗口的左边缘：接收方感兴趣的第一个字节。如果ISN还没有被设置，返回一个空的可选值
+返回一个可选的<WrappingInt32>，包含接收方尚未知道的第一个字节的序列号。这就是窗口的左边缘：接收方感兴趣的第一个字节。如果ISN还没有被设置，返回一个空的可选值
         
 #### window size
         
-    求窗口大小
+求窗口大小
         
    
    
