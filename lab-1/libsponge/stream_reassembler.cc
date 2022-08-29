@@ -23,7 +23,7 @@ void StreamReassembler::push_substring(const string &data, const size_t index, c
      * 1.对传入的data，在map中找上界up
      *      a.找到，判断是否交叉，交叉则判断是否被包围，包围则结束，否则修改start为up->first+up->second.size()-index;
      *      b.没有找到，判断index是否<=hope_to_rec,是则进行相应剪切和丢弃；
-     * 2.在map中找下届down
+     * 2.在map中找下界down
      *      a.找到，判断是否交叉，交叉则判断是否包围，包围则删除down，继续2，否则修改len为down->first-start;否则直接插入，结束；
      *      b.没有找到，判断start是否越界，越界则丢弃，结束，否则插入map，结束；
      * 3.进行判断是否能写入_output，能则写入，判断是否全部写入，没有则将剩余插入map
