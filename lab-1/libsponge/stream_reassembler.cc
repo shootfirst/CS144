@@ -37,15 +37,21 @@ void StreamReassembler::push_substring(const string &data, const size_t index, c
 //    }
 
    size_t start = index;
-   // here we let up be the begin
+    
+   // get up, -------------   ----  ..... ------  ------- ...... ------
+   //                                     --------(input slice, one of the all situations, up->first <= start, and down >= start)
+   //                     ^               ^        ^
+   //                     |               |        |
+   //                hope_to_rec          up      down      
+  
    auto up = unassembled_slice.upper_bound(start);
    if (up != unassembled_slice.begin()) {
        up --;
    }
 
-   // if start is bigger than the smallest index in the map and the map is not empty,notice! must be not empty!
+   // if the map is not empty and up -> first <= start, means up is not hope_to_rec
    if (up != unassembled_slice.end() && up -> first <= start) {
-       // if start is in the slice having the smallest index,cut
+       // if start is in up,cut
        if (up -> first + (up -> second).size() > start) {
            start = up -> first + (up -> second).size();
            // if input slice is covered by the slice having the smallest index,return
@@ -59,7 +65,7 @@ void StreamReassembler::push_substring(const string &data, const size_t index, c
        // smaller than hope_to_rec, cut
        if (hope_to_rec > start) {
            start = hope_to_rec;
-           // if input slice is covered by hope_to_rec,return
+           // if input slice is in hope_to_rec,return
            if (start >= index + data.size()) {
                return;
            }
@@ -69,7 +75,8 @@ void StreamReassembler::push_substring(const string &data, const size_t index, c
    // modify len
    size_t len = data.size() + index - start;
    auto down = unassembled_slice.lower_bound(start);
-
+   
+   // merge happends in find down, so wen use while
    while (down != unassembled_slice.end()) {
        // if down->first >= start and down->first < start + len,means the two slices overlap
        if (down -> first < start + len) {
