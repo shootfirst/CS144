@@ -8,19 +8,25 @@ using namespace std;
 
 void get_URL(const string &host, const string &path) {
     Address address(host, "http");
+    // here we call the socket syscall at the bottom
     TCPSocket sock;
+    // we are client so we call connect to build a connection to the server,three-way handshake happens at this time
     sock.connect(address);
+    // we write data to server,here write equals to send
     sock.write("GET " + path + " HTTP/1.1\r\n");
     sock.write("Host: " + host + "\r\n");
     sock.write("\r\n");
+    // shutdown for write
     sock.shutdown(SHUT_WR);
     string res;
+    // here read equals to recv
     string received = sock.read(1);
     while (!sock.eof()) {
         res = res + received;
         received = sock.read(1);
     }
     std::cout << res;
+    // close socket, we can also use shutdown
     sock.close();
 }
 
