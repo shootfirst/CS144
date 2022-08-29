@@ -189,7 +189,8 @@ TCP序列号不从零开始：为了提高安全性和避免不同连接之间�
 
 #### 序列号转绝对序列号
 
-通过recent absolute 64-bit sequence number做参考
+通过recent absolute 64-bit sequence number：checkpoint做参考，首先获取wrap参考值checkpoint，因为要转换成为的绝对序列号不可能比checkpoint大2^32次方，然后使用无符号数使待转
+换的序列号n和wrap值checkpoint的wrap值相减，若前者大于等于后者则结果正确，若最高位为1并且相减值加checkpoint值大于2^32，则减去2^32次方返回之。
 
 
 
