@@ -8,19 +8,99 @@ cs144官网：https://cs144.github.io/
 
 实验零有两小部分。分别是实现和手动获取网页相同功能的函数和实现内存字节流读取可靠服务
 
-+ 手动获取网页
+### 手动获取网页
 
 补充get_URL函数，代码量10几行
 
 此部分关键点一我觉得是通过套接字和采用http协议的服务器沟通时，每行命令结束应该以\r\n结束，最后键入所有命令后同样要写入\r\n，如
 
 GET /hello HTTP/1.1
+
 Host: http://cs144.Keithw.org
+
 Connection: close
 
 你在写程序时应该这样"GET " + path + " " + "HTTP/1.1\r\nHost: " + host + "\r\nConnection: close\r\n\r\n"。
 
-其次是调用shutdown函数时注意传入的参数，第一次我传入SHUT_RDWT,导致报错：read: Connection reset by peer
+其次是注意库函数和相关参数的使用，例如调用shutdown函数时注意传入的参数，第一次我传入SHUT_RDWT,导致报错：read: Connection reset by peer
+
+最后，我觉得本实验的关键点是对套接字编程的掌握，如果熟练地掌握了套接字编程，则能够轻松拿下本关，故时隔四个月后，我再来记录下套接字最基本的相关系统调用和知识点
+
+### 套接字编程
+
+此处以berkely套接字接口为准，berkely套接字接口相当于是事实上的套接字接口标准（此处可自行google）
+
+##### socket
+
+函数原型：int socket(int domain, int type, int protocol)
+
+作用：建立一个协议族为domain，类型为type，协议编号为protocol的套接字接口，返回值为该套接字文件描述符
+
+##### bind
+
+函数原型：int bind(int sockfd, const struct sockaddr *addr, socklen_t addrlen)
+
+作用：将套接字和端口号，ip地址绑定在一起。addr为地址，类型为结构体，addrlen则表示结构体大小。客户通信不需要bind，服务器会直接从报文中取出客户ip
+    
+struct sockaddr {
+   sa_family_t sa_family;    // 表示使用什么协议族的ip
+   char        sa_data[14];  // 存放ip和端口，直接写入有点麻烦，可以通过写入struct sockaddr_in然后强转
+}
+
+##### listen（一般用于服务端）
+
+函数原型：int listen(int sockfd, int backlog)
+
+作用：将套接字文件从主动转为被动文件描述符，用于监听客户端。backlog为队列容量。因为连接请求只能由客户端发起，此时服务端的listen函数是将服务端的主
+动描述符转为被动描述符，否则无法用于监听客户端的连接。
+
+##### connect（一般用于客户端）
+
+函数原型：int connect(int sockfd, const struct sockaddr *addr, socklen_t addrlen)
+
+作用：用于客户端和服务端的连接，sockfd是自生套接字描述符，后两者是服务端地址与长度。调用此函数会激发tcp三次握手
+
+##### accept（一般用于服务端）
+
+函数原型：int accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen)
+
+作用：被动监听客户端发起的tcp连接请求，三次握手后连接建立成功。客户端connect函数请求发起连接。sockfd 已经被listen转为了被动描述符的“套接字文件描述符”，专门用于客户端的监
+听，addr 用于记录发起连接请求的那个客户端的IP端口建立连接时服务器的TCP协议会自动解析客户端发来的数据包，从中获取客户端的IP和端口号这里如果服务器应用层需要用到客户端的 IP和
+端口号，可以给accept指定第二个参数addr,以获取TCP链接时的客户端ip和端口号；如果服务器应用层不需要，则写NULL即可。至于如何获取客户端地址，addr是paramin，懂得都懂。
+
+##### send（通过socket发送数据）
+
+函数原型：ssize_t send(int sockfd, const void *buf, size_t len, int flags)
+
+作用：向对方发送数据。buf存储要发送的字节流，len表示字节流长度，flags表示阻塞和非阻塞发送，还有sendto函数，多了const struct sockaddr *dest_addr, socklen_t addrlen两个参数
+，一般用于udp通信。
+
+##### recv（通过socket接收数据）
+
+函数原型：ssize_t recv(int sockfd, void *buf, size_t len, int flags);
+
+作用：接收数据，参数见上，同样还有recvform，和sendto对应。注意，当send和recv的flag为0时，和read，write作用一样
+
+##### close
+
+函数原型：int close(int sockfd)
+
+作用：close 一个套接字的默认行为是把套接字标记为已关闭，然后立即返回到调用进程，该套接字描述符不能再由调用进程使用，也就是说它不能再作为read或write的第一个参数，然而TCP将
+尝试发送已排队等待发送到对端的任何数据，发送完毕后发生的是正常的TCP连接终止序列。在多进程并发服务器中，父子进程共享着套接字，套接字描述符引用计数记录着共享着的进程个数，当
+父进程或某一子进程close掉套接字时，描述符引用计数会相应的减一，当引用计数仍大于零时，这个close调用就不会引发TCP的挥手断连过程。
+
+##### shutdown
+
+函数原型：int shutdown(int sockfd, int how)
+
+作用：直接断开当前套接字代表的连接，不管多少引用（和close区别），how 表示如何断开连接
+
+
+
+
+
+
+
 
 + 内存可靠字节流
 
