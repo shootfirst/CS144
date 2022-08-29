@@ -274,7 +274,8 @@ ackno 的计算必须考虑到 SYN 和 FIN 标志，因为这两个标志各占�
     
 + 功能：发送空报文，注意填写tcp报头的seqno字段，实验四会用到
            
-           
+     
+    
            
 ## lab4
 实验四将之前写的sender和reciever结合起来，实现可以真正和其他世界各地计算机进行对话的tcp协议。
@@ -317,48 +318,58 @@ ackno 的计算必须考虑到 SYN 和 FIN 标志，因为这两个标志各占�
 
 ### 连接函数
     
-    - remaining_outbound_capacity
-        
-    - bytes_in_flight
++ remaining_outbound_capacity
+   
++ bytes_in_flight
+
++ unassembled_bytes
+
++ time_since_last_segment_received
+
++ active
     
-    - unassembled_bytes
-    
-    - time_since_last_segment_received
-    
-    - active
-    
-    这几个函数只需要调用reciever或者sender的相关方法即可，或者返回自己设置的变量，如我设置的is_active表示tcp是否存活，较为简单
+这几个函数只需要调用reciever或者sender的相关方法即可，或者返回自己设置的变量，如我设置的is_active表示tcp是否存活，较为简单
         
 ### 填充函数
     
-    - write
++ write
+   
++ end_input_stream
+   
++ connect
         
-    - end_input_stream
-        
-    - connect
-        
-    这三个函数本质都是填充，write是向sender的streamin写字节流，end_input_stream为终止向sender的streamin写字节流，实际上就是向sender的streamin写fin（前面的实验告诉我们fin也         占一个字节），而connect，相当于写一个syn，也占一个字节。这三个函数需要注意在写完字节流或者终止字节流写入后一定要调用fillwindow方法，因为可能此时窗口大小够用，但是streamin却         为空，造成win空闲但是无字节流可写入的局面，此时一定要手动调用fill_window来“唤醒”sender。
+这三个函数本质都是填充，write是向sender的streamin写字节流，end_input_stream为终止向sender的streamin写字节流，实际上就是向sender的streamin写fin（前面的实验告诉我们fin也       
+占一个字节），而connect，相当于写一个syn，也占一个字节。这三个函数需要注意在写完字节流或者终止字节流写入后一定要调用fillwindow方法，因为可能此时窗口大小够用，但是streamin却
+为空，造成win空闲但是无字节流可写入的局面，此时一定要手动调用fill_window来“唤醒”sender。
         
 ### 辅助函数
     
-    - add_ack_and_win
++ add_ack_and_win
         
-    - set_rst
++ set_rst
         
-    这两个函数是自定义函数，起辅助功能，上面的两个个品种函数和下面的是cs144官方给出的接口，不能修改。add_ack_and_win主要是将sender的seg队列中的所有seg移到connection的seg队           列，这样才算是将sender发送的包发送出去了，发送出去之前要注意：加上ackno和win_size，这个方法一定要和fillwindow方法成对出现。而set_rst则是将自生置为错误状态，且根据传入的           bool参数判断是否发送rst包。
+这两个函数是自定义函数，起辅助功能，上面的两个品种函数和下面的是cs144官方给出的接口，不能修改。add_ack_and_win主要是将sender的seg队列中的所有seg移到connection的seg队         
+列，同时填充接收方相关信息，这样才算是将sender发送的包发送出去了，发送出去之前要注意：加上ackno和win_size，这个方法一定要和fillwindow方法成对出现。而set_rst则是将自生置为错误状
+态，且根据传入的bool参数判断是否发送rst包，因为有时候需要发送，有时候不需要，故设置此参数。
         
         
 ### 状态相关函数
     
-    - segment_received
++ segment_received
         
-    - tick
++ tick
         
-    这两个函数是tcp的核心，是最难的两个函数，和tcp状态密切相关，前两个品种的函数和状态无关，无需根据状态来采取不同行为。
+这两个函数是tcp的核心，是最难的两个函数，和tcp状态密切相关，前两个品种的函数和状态无关，无需根据状态来采取不同行为。
         
-    首先是segment_received函数，注意每次调用此函数首先是将离上一次收到seg的时间清零，之后判断其是否为rst包，是则直接调用set_rst自爆，注意传入false，因为这是被动自爆，无需发送         rst包。随后需要注意判断是否是ack包，如果是，则意味着需要将ackno和win两个参数传给sender，此时如果窗口变大，sender会发送数据包，然后需要判断是否需要发空包，只有在该包不是空的         ack包并且sender的seg队列为空，此时需要调用sender发送一个空包，但是不能立即发送。随后便是对11个状态中接收方最特殊的三个状态进行相应处理，分别是收到syn包、收到fin包和收到             finack包，具体状态的判断见tcp_state.hh和tcp_state.cc源码，但是不能原封不动按上面来判断，需小小改动，嘻嘻。方法最后，如果需要发空包，则发之，注意add_ack_and_win，不论是否         发空包，都需要调用此方法，仔细看我上面说的和add_ack_and_win解析。
+首先是segment_received函数，注意每次调用此函数首先是将离上一次收到seg的时间清零，之后判断其是否为rst包，是则直接调用set_rst自爆，注意传入false，因为这是被动自爆，无需发送
+rst包。随后需要注意判断是否是ack包，如果是，则意味着需要将ackno和win两个参数传给sender，此时如果窗口变大，sender会发送数据包，然后需要判断是否需要发空包，只有在该包不是空的
+ack包并且sender的seg队列为空，此时需要调用sender发送一个空包，但是不能立即发送。随后便是对11个状态中接收方最特殊的三个状态进行相应处理，分别是收到syn包、收到fin包和收到
+finack包，具体状态的判断见tcp_state.hh和tcp_state.cc源码，但是不能原封不动按上面来判断，需小小改动，嘻嘻。方法最后，如果需要发空包，则发之，注意add_ack_and_win，不论是
+否发空包，都需要调用此方法，仔细看我上面说的和add_ack_and_win解析。
         
-        然后是tick方法，首先注意此方法开始注意将离上一次收到seg的时间增加，之后调用sender的tick，然后判断是否超时，超时则清空sender的seg队列，并且set_rst自爆，直接返回，注意传入的         参数哦。然后便是调用add_ack_and_win将重传包发送出去。这两个步骤不能颠倒，即不能先发包，再判断是否重传超过最大限制次数。最后需要注意判断是否到了time_wait阶段哦，如果到了此阶         段，if_linger为真，已经过了10倍的初始重传超时(_cfg.rt_timeout)时，即可关闭此tcp连接了。
+然后是tick方法，首先注意此方法开始注意将离上一次收到seg的时间增加，之后调用sender的tick，然后判断是否超时，超时则清空sender的seg队列，并且set_rst自爆，直接返回，注意传入的
+参数哦。然后便是调用add_ack_and_win将重传包发送出去。这两个步骤不能颠倒，即不能先发包，再判断是否重传超过最大限制次数。最后需要注意判断是否到了time_wait阶段哦，如果到了此阶
+段，if_linger为真，已经过了10倍的初始重传超时(_cfg.rt_timeout)时，即可关闭此tcp连接了。
         
         
         
