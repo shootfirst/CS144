@@ -37,65 +37,83 @@ void StreamReassembler::push_substring(const string &data, const size_t index, c
 //    }
 
    size_t start = index;
+   // here we let up be the begin
    auto up = unassembled_slice.upper_bound(start);
    if (up != unassembled_slice.begin()) {
        up --;
    }
 
-
+   // if start is bigger than the smallest index in the map and the map is not empty,notice! must be not empty!
    if (up != unassembled_slice.end() && up -> first <= start) {
+       // if start is in the slice having the smallest index,cut
        if (up -> first + (up -> second).size() > start) {
            start = up -> first + (up -> second).size();
+           // if input slice is covered by the slice having the smallest index,return
            if (start >= index + data.size()) {
                return;
            }
        }
    }
+   
    else {
+       // smaller than hope_to_rec, cut
        if (hope_to_rec > start) {
            start = hope_to_rec;
+           // if input slice is covered by hope_to_rec,return
            if (start >= index + data.size()) {
                return;
            }
        }
    }
 
-
+   // modify len
    size_t len = data.size() + index - start;
    auto down = unassembled_slice.lower_bound(start);
 
    while (down != unassembled_slice.end()) {
+       // if down->first >= start and down->first < start + len,means the two slices overlap
        if (down -> first < start + len) {
+           // input slice cover the down, notice!!! we should get the next map node, because the next node and input slice alse overlap,we should erase and merge
            if (down -> first + (down -> second).size() <= start + len) {
                unassembled_byte_num -= (down -> second).size();
                down = unassembled_slice.erase(down);
                continue;
            } 
+           // get disjoint parts
            else {
                len = down -> first - start;
                break;
            }
        }
+       // down->first >= start and down->first >= start + len
        else {
            break;
        }
    }
-
+   
+    // out of bound
    if (start >= hope_to_rec + _capacity - _output.buffer_size()) {
        return;
    }
+    
+   // now we start jundge if we can write the input slice
 
    if (start == hope_to_rec) {
        size_t have_written = _output.write(data.substr(start - index, len));
        hope_to_rec += have_written;
+       // we can not write so much, means the buffer is full, so we should store the string we can not write
        if (have_written < len) {
            unassembled_slice.insert(make_pair(start + have_written, data.substr(start + have_written - index, len - have_written)));
        }
-   }else {
+   }
+    
+   // input slice and hope_to_rec do not overlap, we storr in map
+   else {
        unassembled_slice.insert(make_pair(start, data.substr(start - index, len)));
        unassembled_byte_num += len;
    }
    
+   // after update hope_to_rec, we should jundge if we can write slices in map  
    for (auto ptr = unassembled_slice.begin(); ptr != unassembled_slice.end();) {
        if (ptr -> first == hope_to_rec) {
             size_t have_written = _output.write(ptr -> second);
@@ -117,6 +135,7 @@ void StreamReassembler::push_substring(const string &data, const size_t index, c
        eof_idx = start + len;
        is_eof = eof;
    }
+   // if all of the slice is written and eof, we end input
    if (is_eof && eof_idx <= hope_to_rec) {
        _output.end_input();
    }
