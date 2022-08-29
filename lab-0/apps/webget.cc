@@ -28,6 +28,8 @@ void get_URL(const string &host, const string &path) {
     std::cout << res;
     // close socket, we can also use shutdown
     sock.close();
+    
+    // what the cs144 lab makes us do is finish the tcp protocol under socket functions such as connect,read(recv),write(send) and so on
 }
 
 int main(int argc, char *argv[]) {
