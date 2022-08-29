@@ -24,6 +24,7 @@ class ByteStream {
   
     // I use list to store the char to send or recv
     std::list<char> buffer = {};
+    // the max size of buffer
     size_t size;
 
     size_t have_read = 0;
