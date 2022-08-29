@@ -28,6 +28,7 @@ void TCPReceiver::segment_received(const TCPSegment &seg) {
 
     WrappingInt32 seqno = rec_header.seqno;
     uint64_t abs_seqno = unwrap(seqno, isn, hope_to_rec + 1);
+    // 减1是除去syn，syn也占一个位置
     _reassembler.push_substring(seg.payload().copy() ,abs_seqno - 1 + rec_header.syn, seg.header().fin);
     hope_to_rec = _reassembler.get_hope_to_rec();
     
