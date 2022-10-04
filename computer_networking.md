@@ -5,18 +5,18 @@
 
 # 应用层
 
-## http
+## HTTP
 
-## https
+## HTTPS
 
-## dns
+## DNS
 
 
 # 传输层
 
-## udp
+## UDP
 
-## tcp
+## TCP
 
 ##### 可靠数据传输
 
@@ -30,15 +30,15 @@
 
 # 网络层
 
-## ip
+## IP
 
-## ip地址
+## IP地址
 
-## dhcp
+## DHCP
 
-## nat
+## NAT
 
-## icmp
+## ICMP
 
 ## 路由算法
 
