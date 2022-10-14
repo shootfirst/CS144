@@ -66,7 +66,7 @@ void TCPConnection::segment_received(const TCPSegment &seg) {
     add_ack_and_winsize();
 
 
-    //是否进入closing状态，即此时收到对面fin，自己已经收到finack，_linger_after_streams_finish为false，并且此时又收到seg
+    //是否进入closs状态，即此时收到对面fin，自己已经收到finack，_linger_after_streams_finish为false，并且此时又收到seg
     //（调用此函数segment_received就代表收到seg)
     if (TCPState::state_summary(_receiver) == TCPReceiverStateSummary::FIN_RECV &&
         TCPState::state_summary(_sender) == TCPSenderStateSummary::FIN_ACKED && 
