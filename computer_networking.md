@@ -195,7 +195,7 @@
 
 #### 网卡
 
-
+![avatar](network_interface_card.png)
 
 #### 链路层交换机
 
