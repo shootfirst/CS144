@@ -8,7 +8,7 @@
 
 #### 架构
 
-![](internet_infra.jpg)
+![](internet_infra.png)
 
 #### 组成
 
